@@ -1,0 +1,14 @@
+<h2 mat-dialog-title>{{ dist.name }}</h2>
+
+<mat-dialog-content class="section">
+  
+    <div class="sub-title" *ngIf="dist.address">{{ dist.address }}</div>
+    <div class="sub-title" *ngIf="dist.phone">{{ dist.phone }}</div>
+    <div class="sub-title" *ngIf="dist.mobile">{{ dist.mobile }}</div>
+    <div class="sub-title" *ngIf="dist.email">{{ dist.email }}</div>
+
+</mat-dialog-content>
+
+<mat-dialog-actions>
+    <button mat-button (click)="cancel()">Cancel</button>  
+</mat-dialog-actions>

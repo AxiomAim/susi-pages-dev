@@ -1,0 +1,5 @@
+$schneider-primary: mat-palette($mat-green, 700, 50, 900);
+$schneider-accent: mat-palette($mat-light-blue, 600, 100, 900);
+$schneider-warn: mat-palette($mat-red, 500, A200, 800);
+
+$schneider-theme: mat-light-theme($schneider-primary, $schneider-accent, $schneider-warn);

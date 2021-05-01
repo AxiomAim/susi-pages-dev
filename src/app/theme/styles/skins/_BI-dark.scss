@@ -1,0 +1,5 @@
+$bitronics-primary: mat-palette($mat-indigo, 700, 50, 900);
+$bitronics-accent: mat-palette($mat-grey, 600, 100, 900);
+$bitronics-warn: mat-palette($mat-red, 500, A200, 800);
+
+$bitronics-theme: mat-dark-theme($bitronics-primary, $bitronics-accent, $bitronics-warn);

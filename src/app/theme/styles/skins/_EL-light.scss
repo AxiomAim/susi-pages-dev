@@ -1,0 +1,5 @@
+$elster-primary: mat-palette($mat-blue, 700, 50, 900);
+$elster-accent: mat-palette($mat-light-blue, 600, 100, 900);
+$elster-warn: mat-palette($mat-red, 500, A200, 800);
+
+$elster-theme: mat-light-theme($elster-primary, $elster-accent, $elster-warn);

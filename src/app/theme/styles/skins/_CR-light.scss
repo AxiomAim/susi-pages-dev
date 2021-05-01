@@ -1,0 +1,5 @@
+$crompton-primary: mat-palette($mat-blue, 700, 50, 900);
+$crompton-accent: mat-palette($mat-light-green, 600, 100, 900);
+$crompton-warn: mat-palette($mat-red, 500, A200, 800);
+
+$crompton-theme: mat-light-theme($crompton-primary, $crompton-accent, $crompton-warn);

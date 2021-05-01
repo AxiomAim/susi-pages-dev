@@ -1,0 +1,59 @@
+<div class="p-3">
+    <div class="theme-container">
+        <a (click)="openDialog()" mat-raised-button color="primary" fxShow="false" fxShow.gt-xs
+            class="uppercase">Add a Video</a>
+    </div>
+</div>
+
+<mat-form-field appearance="outline" class="w-100">
+    <input matInput (keyup)="applyFilter($event.target.value)" placeholder="Filter Items" autocomplete="off">
+</mat-form-field>
+
+<div class="table-wrapper">
+    <table mat-table [dataSource]="dataSource" matSort class="w-100">
+
+        <ng-container matColumnDef="image">
+            <th mat-header-cell *matHeaderCellDef> Image </th>
+            <td mat-cell *matCellDef="let data">
+                <mat-icon color="primary">videocam</mat-icon>
+                <!-- <div *ngIf="data.image">
+                    <img [src]="data.image" [style.height.px]="50" class="d-block">
+                </div> -->
+            </td>
+        </ng-container>
+
+        <ng-container matColumnDef="videoName">
+            <th mat-header-cell *matHeaderCellDef mat-sort-header> Name </th>
+            <td mat-cell *matCellDef="let data">{{data.videoName}}</td>
+        </ng-container>
+
+        <ng-container matColumnDef="extUrl">
+            <th mat-header-cell *matHeaderCellDef mat-sort-header> External URL </th>
+            <td mat-cell *matCellDef="let data">{{data.extUrl}}</td>
+        </ng-container>
+
+        <ng-container matColumnDef="youTubeId">
+            <th mat-header-cell *matHeaderCellDef mat-sort-header> You Tube ID </th>
+            <td mat-cell *matCellDef="let data">{{data.youTubeId}}</td>
+        </ng-container>
+
+        <ng-container matColumnDef="actions">
+            <th mat-header-cell *matHeaderCellDef> Actions </th>
+            <td mat-cell *matCellDef="let data">
+                <!-- <a [routerLink]="['/account/susi-images-edit/', data.id]" mat-icon-button color="primary"
+                    matTooltip="Edit Album">
+                    <mat-icon>edit</mat-icon>
+                </a> -->
+                <button mat-icon-button color="warn" (click)="remove(data)" matTooltip="Remove" class="remove">
+                    <mat-icon>delete</mat-icon>
+                </button>
+            </td>
+        </ng-container>
+        
+        <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+        <tr mat-row *matRowDef="let data; columns: displayedColumns;">
+        </tr>
+    </table>
+    <p *ngIf="dataSource?.data.length === 0" class="py-5 mb-0 text-center">No data available</p>
+</div>
+<!-- <mat-paginator [pageSizeOptions]="[25, 100]"></mat-paginator> -->

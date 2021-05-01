@@ -1,0 +1,5 @@
+$satec-primary: mat-palette($mat-orange, 700, 50, 900);
+$satec-accent: mat-palette($mat-grey, 600, 100, 900);
+$satec-warn: mat-palette($mat-red, 500, A200, 800);
+
+$satec-theme: mat-light-theme($satec-primary, $satec-accent, $satec-warn);

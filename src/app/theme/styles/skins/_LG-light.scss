@@ -1,0 +1,5 @@
+$landisgyr-primary: mat-palette($mat-light-green, 700, 50, 900);
+$landisgyr-accent: mat-palette($mat-light-green, 600, 100, 900);
+$landisgyr-warn: mat-palette($mat-red, 500, A200, 800);
+
+$landisgyr-theme: mat-light-theme($landisgyr-primary, $landisgyr-accent, $landisgyr-warn);

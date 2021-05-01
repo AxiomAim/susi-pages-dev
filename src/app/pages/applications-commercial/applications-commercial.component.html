@@ -1,0 +1,48 @@
+<div class="section mt-3">
+    <div class="px-3">
+        <div class="theme-container">
+            <h1 class="section-title">Commercial</h1>
+        </div>
+        <div class="px-3">
+            <div class="theme-container">
+                <div fxLayout="row wrap" class="properties-wrapper">
+                    <div *ngFor="let series of seriesList" fxFlex="100" fxFlex.xl="25" fxFlex.lg="25" fxFlex.md="33"
+                        fxFlex.sm="100" fxFlex.xs="100" class="p-2 item">
+                        <app-susi-series-item [series]="series" [viewType]="viewType" [viewColChanged]="viewCol"></app-susi-series-item>
+                    </div>
+                    <div *ngIf="seriesList?.length == 0" fxFlex="100" fxLayoutAlign="center center" [style.min-height.px]="200">
+                        <mat-spinner *ngIf="!message"></mat-spinner>
+                        <mat-chip-list *ngIf="message">
+                            <mat-chip selected disableRipple="true" color="warn" class="uppercase ws-nowrap">
+                                {{message}}
+                            </mat-chip>
+                        </mat-chip-list>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- <div class="theme-container">
+    <mat-card class="main-content-header">
+
+        <div class="section pt-2">
+            <div class="px-3">
+                <div class="theme-container">
+                    <h1 class="section-title">About SUSI Adapters, Inc.</h1>
+                    <div fxLayout="row wrap">
+                        <div fxFlex="100" fxFlex.gt-sm="20" class="p-3">
+                            <img src="assets/images/susi/aboutUs/SWAAF9.jpg" alt="USPTO" width="150" height="150">
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </mat-card>
+
+</div> -->
+
+<app-susi-get-in-touch></app-susi-get-in-touch>

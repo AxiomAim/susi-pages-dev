@@ -1,0 +1,5 @@
+$ametek-primary: mat-palette($mat-grey, 700, 50, 900);
+$ametek-accent: mat-palette($mat-deep-orange, 600, 100, 900);
+$ametek-warn: mat-palette($mat-red, 500, A200, 800);
+
+$ametek-theme: mat-dark-theme($ametek-primary, $ametek-accent, $ametek-warn);

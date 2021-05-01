@@ -1,0 +1,62 @@
+a:link {
+    color: #000;
+    text-decoration: none;
+    }
+    
+    a:visited {
+      color: #000;
+      text-decoration: none;
+    }
+    
+    a:hover {
+      color: red;
+      text-decoration: none;
+    }
+    
+    a:active {
+      color: #000;
+      text-decoration: none;
+    }
+
+    .top-left {
+      position: absolute;
+      top: 8px;
+      left: 16px;
+      color: #fff;
+    }
+
+    // .mat-card{
+    //     text-align: center;
+    //     min-width: 0px;           
+    //     min-height: 0px;           
+    //     transition: 0.4s;
+    //     margin: 0 0 0 0;      
+    //     // background: rgba(255, 255, 255, 0.75);
+    //     background: rgba(255, 255, 255);
+    // }
+
+
+    // mat-card {
+
+    //     img {
+    //         object-fit: cover; /*this makes the image in src fit to the size specified below*/
+    //         width: 100%; /* Here you can use wherever you want to specify the width and also the height of the <img>*/
+    //         height: 100%;
+    //     }
+
+    //     // img {
+    //     //     height: fit-content; //so that it takes up full space
+    //     //     max-height: 500px !important; // this prevents the image from being extremely big
+    //     //     object-fit: cover; 
+    //     //     object-position: center; /* this centers and crops the image so that it doesn't break the aspect ratio */
+    //     //   }
+          
+    // }
+
+    // // img {
+    // //     height: fit-content; //so that it takes up full space
+    // //     max-height: 500px !important; // this prevents the image from being extremely big
+    // //     object-fit: cover; 
+    // //     object-position: center; /* this centers and crops the image so that it doesn't break the aspect ratio */
+    // //     padding: 16px 16px 16px 16px;
+    // // }

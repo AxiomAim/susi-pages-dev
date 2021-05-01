@@ -1,0 +1,19 @@
+<span fxLayoutAlign="center center" class="item">
+  <mat-icon [color]="iconColor" [ngClass]="'mat-icon-' + iconSize">call</mat-icon>
+  <span class="px-1">(770) 448-6810</span>
+</span>
+<span *ngIf="dividers" class="v-divider"></span>
+<span fxLayoutAlign="center center" class="item">
+  <a href="https://www.google.com/maps/place/3020+Business+Park+Drive+Suite+E,+Norcross,+GA+30071/@33.9546246,-84.2117469,17z/data=!3m1!4b1!4m5!3m4!1s0x88f5a1145fc52fff:0xd158992c2f2f5bd7!8m2!3d33.9546246!4d-84.2095582"
+    target="_blank" style="text-decoration: none; color: white;">
+    <mat-icon [color]="iconColor" [ngClass]="'mat-icon-' + iconSize">location_on</mat-icon>
+    <span class="px-1">3020 Business Park Drive Suite E, Norcross, GA 30071</span>
+  </a>
+</span>
+<span *ngIf="dividers" class="v-divider"></span>
+<a href="mailto:sales@susiadapters.com" target="_blank">
+  <span fxLayoutAlign="center center" class="item">
+    <mat-icon [color]="iconColor" [ngClass]="'mat-icon-' + iconSize">mail</mat-icon>
+    <span class="px-1">sales@SUSIadapters.com</span>
+  </span>
+</a>

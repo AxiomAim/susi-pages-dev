@@ -1,0 +1,72 @@
+$sa-susi: (
+    50: #ffffff,
+    100: #dfe2e9,
+    200: #9ea8bd,
+    300: #9ea8bd,
+    400: #7d8ca6,
+    500: #5d6f90,
+    600: #3c527a,
+    700: #1c3564,
+    800: #15284b,
+    900: #0e1b32,
+    A100: #ffffff,
+    A200: #dde6f3,
+    A400: #6992c9,
+    A700: #38649d,
+    contrast: (
+        50: $black-87-opacity,
+        100: $black-87-opacity,
+        200: $black-87-opacity,
+        300: $black-87-opacity,
+        400: $black-87-opacity,
+        500: white,
+        600: white,
+        700: white,
+        800: white,
+        900: white,
+        A100: $black-87-opacity,
+        A200: $black-87-opacity,
+        A400: $black-87-opacity,
+        A700: white,
+    )
+);
+
+$sa-susi-accent: (
+    50: #ffffff,
+    100: #e9f0f8,
+    200: #d3e2f0,
+    300: #bdd3e9,
+    400: #a7c4e1,
+    500: #91b5da,
+    600: #7ba7d2,
+    700: #6598cb,
+    800: #547fa9,
+    900: #436587,
+    A100: #ffffff,
+    A200: #d3e2f0,
+    A400: #6598cb,
+    A700: #436587,
+    contrast: (
+        50: $black-87-opacity,
+        100: $black-87-opacity,
+        200: $black-87-opacity,
+        300: $black-87-opacity,
+        400: $black-87-opacity,
+        500: white,
+        600: white,
+        700: white,
+        800: white,
+        900: white,
+        A100: $black-87-opacity,
+        A200: $black-87-opacity,
+        A400: $black-87-opacity,
+        A700: white,
+    )
+);
+
+$susi-primary: mat-palette($sa-susi-accent, 700, 50, 900);
+// $susi-accent: mat-palette($mat-light-blue, 300, A200, 800);
+$susi-accent: mat-palette($sa-susi, 600, A200, 800);
+$susi-warn: mat-palette($mat-red, A200);
+
+$susi-theme: mat-dark-theme($susi-primary, $susi-accent, $susi-warn);

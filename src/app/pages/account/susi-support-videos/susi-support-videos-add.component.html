@@ -1,0 +1,26 @@
+<h2 mat-dialog-title>Add Video</h2>
+
+<mat-dialog-content [formGroup]="submitForm">
+
+  <!-- <mat-form-field>
+    <input matInput placeholder="Image" formControlName="image">
+  </mat-form-field> -->
+
+  <mat-form-field>
+    <input matInput placeholder="Video Name" formControlName="videoName">
+  </mat-form-field>
+
+  <mat-form-field>
+    <input matInput placeholder="External URL" formControlName="extUrl">
+  </mat-form-field>
+
+  <mat-form-field>
+    <input matInput placeholder="You Tube ID" formControlName="youTubeId">
+  </mat-form-field>
+
+</mat-dialog-content>
+
+<mat-dialog-actions>
+  <button mat-button (click)="cancel()">Cancel</button>
+  <button mat-button [mat-dialog-close]="data" cdkFocusInitial (click)="onSubmitForm()" [disabled]="!submitForm.valid">Save</button>
+</mat-dialog-actions>

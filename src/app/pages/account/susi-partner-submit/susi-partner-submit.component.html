@@ -1,0 +1,122 @@
+<div class="p-3">
+    <div class="theme-container">
+
+        <mat-card ngClass.lt-lg="p-0" [formGroup]="submitForm">
+
+            <mat-horizontal-stepper #horizontalStepper linear="true" class="submit-property"
+                (selectionChange)="onSelectionChange($event)">
+
+                <mat-step [stepControl]="submitForm.get('basic')" label="Basic">
+                    <div class="step-content">
+
+                        <form formGroupName="basic" fxLayout="row wrap">
+
+                            <div fxFlex="100" class="p-3">
+                                <h1 class="fw-500 text-center">Partner Information</h1>
+                            </div>
+
+                            <div fxFlex="100" class="px-2">
+                                <mat-form-field appearance="outline" class="w-100">
+                                    <mat-label>ID (domain.com)</mat-label>
+                                    <input matInput placeholder="ID" formControlName="id" required autocomplete="off">
+                                    <mat-error *ngIf="submitForm.get('basic')['controls'].id.errors?.required">ID must
+                                        be like (domain.com)</mat-error>
+                                </mat-form-field>
+                            </div>
+                            <div fxFlex="1`00" class="px-2">
+                                <mat-form-field appearance="outline" class="w-100">
+                                    <mat-label>Select a theme *</mat-label>
+                                    <mat-select [(value)]="partner.theme" formControlName="theme" required>
+                                        <mat-option [value]="theme.id" *ngFor="let theme of themes">{{theme.name}}
+                                        </mat-option>
+                                    </mat-select>
+                                    <mat-error *ngIf="submitForm.get('basic')['controls'].theme.errors?.required">Theme
+                                        is required</mat-error>
+                                </mat-form-field>
+                            </div>
+                            <div fxFlex="100" class="px-2">
+                                <mat-form-field appearance="outline" class="w-100">
+                                    <mat-label>Name</mat-label>
+                                    <input matInput placeholder="Name" formControlName="name" required
+                                        autocomplete="off">
+                                    <mat-error *ngIf="submitForm.get('basic')['controls'].name.errors?.required">
+                                        Manufacturer name is required</mat-error>
+                                </mat-form-field>
+                            </div>
+                            <!-- <div fxFlex="100" class="px-2">
+                                <mat-form-field appearance="outline" class="w-100">
+                                    <mat-label>Email</mat-label>
+                                    <input matInput placeholder="Email" formControlName="email" required
+                                        autocomplete="off">
+                                    <mat-error *ngIf="submitForm.get('basic')['controls'].email.errors?.required">Email
+                                        is required</mat-error>
+                                </mat-form-field>
+                            </div> -->
+                            <!-- <div fxFlex="100" class="px-2">
+                                <mat-form-field appearance="outline" class="w-100">
+                                    <mat-label>Website (http://domain.com)</mat-label>
+                                    <input matInput placeholder="Website" formControlName="url" required
+                                        autocomplete="off">
+                                    <mat-error *ngIf="submitForm.get('basic')['controls'].url.errors?.required">Website
+                                        must be like (http://domain.com)</mat-error>
+                                </mat-form-field>
+                            </div> -->
+
+                            <div fxFlex="100" class="mb-2">
+                                <p class="uppercase m-2 fw-500">Features</p>
+                                <div class="p-2">
+                                    <mat-checkbox formControlName="partnerBar">Partner Bar</mat-checkbox>
+                                </div>
+                            </div>
+
+                            <div fxFlex="100" class="px-2">
+                                <input-file placeholder="Logo (or link to image)" formControlName="logo" fileLimit="1"
+                                    fileAccept="image/*" [linkEnabled]="true" [(ngModel)]="logoFile" (change)="post()"></input-file>
+                            </div>
+
+                            <div fxFlex="100" class="mt-3 p-2" fxLayoutAlign="end center">
+                                <button mat-raised-button color="primary" matStepperNext fxLayout="row"
+                                    fxLayoutAlign="center center" type="button" [disabled]="!submitForm.valid">
+                                    <span class="mx-1 uppercase">Next</span>
+                                </button>
+                                <!-- <button mat-raised-button color="primary" matStepperNext fxLayout="row"
+                                    fxLayoutAlign="center center" type="button" (click)="post()" [disabled]="!submitForm.valid">
+                                    <span class="mx-1 uppercase">Post</span>
+                                </button> -->
+                            </div>
+                        </form>
+                    </div>
+                </mat-step>
+
+<!-- STOP -->
+                <mat-step label="Confirmation">
+                    <div class="step-content">
+
+                        <div fxLayout="column" fxLayoutAlign="center center" class="pt-5 text-center">
+                            <button mat-fab color="primary">
+                                <mat-icon>check</mat-icon>
+                            </button>
+                            <h2 class="mt-3 uppercase">Congratulations!</h2>
+                            <h2 class="my-3">Landing Page <span
+                                    class="primary-color">"{{submitForm.get('basic')['controls'].id.value}}"</span>
+                                has been saved</h2>
+                            <!-- <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempus
+                                dolor ante, ut luctus mi faucibus a. Ut eu tincidunt neque. Proin porttitor id ligula id
+                                placerat. Integer nec nulla varius, dapibus libero quis, semper eros. Aliquam erat
+                                volutpat. Proin volutpat tellus vel purus interdum euismod.</p> -->
+                        </div>
+                        <!-- <div fxLayout="row" fxLayoutAlign="center center" class="pt-3">
+                            <button mat-raised-button color="accent" (click)="reset()" type="button">Return to submit
+                                new property</button>
+                        </div> -->
+
+                    </div>
+                </mat-step>
+
+            </mat-horizontal-stepper>
+
+        </mat-card>
+
+
+    </div>
+</div>

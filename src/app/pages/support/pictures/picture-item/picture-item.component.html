@@ -1,0 +1,47 @@
+
+<mat-card appMaterialElevation class="picture-item p-0" [ngClass]="[viewType + '-item', 'column-'+column]" [class.full-width-page]="fullWidthPage" fxLayout="row wrap">  
+  
+    <div fxFlex="100" fxShrink="3" [fxFlex.gt-sm]="(viewType=='list') ? 40 : 100" [fxFlex.sm]="(viewType=='list') ? 50 : 100" class="thumbnail-section">
+
+        <div *ngIf="gallery.images.length == 1" class="mat-card-image w-100 m-0">
+            <img [src]="gallery.images[0].img">
+        </div>
+        <div *ngIf="gallery.images.length > 1" class="mat-card-image w-100 m-0">
+            <div class="swiper-container" [swiper]="config">
+                <div class="swiper-wrapper"> 
+                    <div *ngFor="let image of gallery.images" class="swiper-slide">
+                        <img [attr.data-src]="image.img" class="swiper-lazy">
+                        <div class="swiper-lazy-preloader"></div>
+                    </div> 
+                </div>  
+                <div class="swiper-pagination white"></div>  
+                <!-- <button mat-icon-button class="swiper-button-prev swipe-arrow"><mat-icon class="mat-icon-lg">keyboard_arrow_left</mat-icon></button> -->
+                <!-- <button mat-icon-button class="swiper-button-next swipe-arrow"><mat-icon class="mat-icon-lg">keyboard_arrow_right</mat-icon></button> -->
+                <button mat-icon-button class="swiper-button-prev swipe-arrow"></button>
+                <button mat-icon-button class="swiper-button-next swipe-arrow"></button>
+            </div>
+        </div>
+    </div>
+    <div fxFlex="100" [fxFlex.gt-sm]="(viewType=='list') ? 60 : 100" [fxFlex.sm]="(viewType=='list') ? 50 : 100" class="p-3">
+
+        <div fxLayout="column" fxLayoutAlign="start stretch" class="h-100">
+            <mat-card-content class="mb-0 mt-4">
+              
+                <h1 class="title">{{gallery.name}}</h1>
+
+                <div fxLayout="row" fxLayoutAlign="space-between center">
+                </div>
+
+            </mat-card-content>
+            <div class="sticky-footer-helper" fxFlex="grow"></div>
+            <mat-card-actions class="m-0 p-0" fxLayoutAlign="space-between center"> 
+                <div>
+                    <a [routerLink]="['/support/gallery', gallery.id]" mat-stroked-button color="primary" class="uppercase">View</a>
+                    <!-- <a [href]="data.link" mat-stroked-button color="primary" class="uppercase" target="_blank">Details</a> -->
+                </div> 
+            </mat-card-actions> 
+        </div>        
+        
+    </div> 
+
+</mat-card>

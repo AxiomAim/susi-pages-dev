@@ -1,0 +1,5 @@
+$accu-energy-primary: mat-palette($mat-cyan, 700, 50, 900);
+$accu-energy-accent: mat-palette($mat-orange, 600, 100, 900);
+$accu-energy-warn: mat-palette($mat-red, 500, A200, 800);
+
+$accu-energy-theme: mat-dark-theme($accu-energy-primary, $accu-energy-accent, $accu-energy-warn);

@@ -1,0 +1,56 @@
+<div fxLayout="row wrap">
+    <div fxFlex="100" fxFlex.gt-sm="50" class="p-3">
+        <h2 class="text-muted text-center fw-600 mb-3">Account details</h2>
+        <p class="text-muted text-center mb-3">{{ user.email }}</p>
+        <form [formGroup]="infoForm" (ngSubmit)="onInfoFormSubmit(infoForm.value)"> 
+            <mat-form-field  appearance="outline" class="w-100 mt-2">
+                <mat-icon matPrefix class="mr-1 text-muted">group</mat-icon>
+                <mat-label>User type</mat-label>
+                <mat-select placeholder="Select User Type" formControlName="userType" [(ngModel)]="user.userType">
+                    <mat-option *ngFor="let type of userTypes" [value]="type.name"> 
+                        {{type.userType}}
+                    </mat-option>
+                </mat-select>
+                <mat-error *ngIf="infoForm.controls.userType.errors?.required">User type is required</mat-error>                   
+            </mat-form-field>
+            <mat-form-field appearance="outline" class="w-100 mt-2">
+                <mat-label>First Name</mat-label>
+                <input matInput placeholder="First Name" formControlName="firstName" required autocomplete="off" [(ngModel)]="user.firstName">
+                <mat-error *ngIf="infoForm.controls.firstName.errors?.required">First Name is required</mat-error>
+                <mat-error *ngIf="infoForm.controls.firstName.hasError('minlength')">First Name isn't long enough, minimum of 3 characters</mat-error>
+            </mat-form-field>
+            <mat-form-field appearance="outline" class="w-100">
+                <mat-label>Last Name</mat-label>
+                <input matInput placeholder="Last Name" formControlName="lastName" required autocomplete="off" [(ngModel)]="user.lastName">
+                <mat-error *ngIf="infoForm.controls.lastName.errors?.required">Last Name is required</mat-error>
+                <mat-error *ngIf="infoForm.controls.lastName.hasError('minlength')">Last Name isn't long enough, minimum of 3 characters</mat-error>
+            </mat-form-field>
+            <mat-form-field appearance="outline" class="w-100">
+                <mat-label>Company Name</mat-label>
+                <input matInput placeholder="Company Name" formControlName="companyName" required autocomplete="off" [(ngModel)]="user.companyName">
+                <mat-error *ngIf="infoForm.controls.companyName.errors?.required">Company Name is required</mat-error>
+                <mat-error *ngIf="infoForm.controls.companyName.hasError('minlength')">Company Name isn't long enough, minimum of 3 characters</mat-error>
+            </mat-form-field>
+            <mat-form-field appearance="outline" class="w-100">
+                <mat-label>Phone</mat-label>
+                <input matInput placeholder="Phone" formControlName="phone" required onlyNumber autocomplete="off" [(ngModel)]="user.phone">
+                <mat-error *ngIf="infoForm.controls.phone.errors?.required">Phone is required</mat-error>
+            </mat-form-field>
+            <!-- <mat-slide-toggle formControlName="receiveNewsletter" class="my-2" [(ngModel)]="user.news">Receive News</mat-slide-toggle> -->
+            <!-- <div>
+                <mat-slide-toggle 
+                    [checked]="user.news === 'true' ? true : false"
+                    (change)="setValue( i , $event )">
+                    Receive News
+                </mat-slide-toggle>
+            </div> -->
+            <!-- <div class="mb-3">
+                <input-file placeholder="Image (or link to image)" formControlName="image" fileLimit="1" fileAccept="image/*" [linkEnabled]="true"></input-file>  
+            </div> -->
+
+            <div class="text-center mt-2">
+                <button mat-raised-button color="primary" type="submit" class="uppercase">Update profile</button>
+            </div> 
+        </form>
+    </div>
+</div> 

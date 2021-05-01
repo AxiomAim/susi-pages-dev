@@ -1,0 +1,27 @@
+<h2 mat-dialog-title>Add 360 View</h2>
+
+<mat-dialog-content [formGroup]="submitForm">
+
+  <mat-form-field>
+    <input matInput placeholder="Partner" formControlName="partner">
+  </mat-form-field>
+
+  <mat-form-field>
+    <input matInput placeholder="Type" formControlName="type">
+  </mat-form-field>
+
+  <mat-form-field>
+    <input matInput placeholder="Part" formControlName="part">
+  </mat-form-field>
+
+  <mat-form-field>
+    <input matInput placeholder="External URL" formControlName="extUrl">
+  </mat-form-field>
+
+</mat-dialog-content>
+
+<mat-dialog-actions>
+  <button mat-button (click)="cancel()">Cancel</button>
+  <!-- <button mat-button [mat-dialog-close]="data" cdkFocusInitial (click)="onSubmitForm(data)">Save</button> -->
+  <button mat-button [mat-dialog-close]="data" cdkFocusInitial (click)="onSubmitForm()" [disabled]="!submitForm.valid">Save</button>
+</mat-dialog-actions>

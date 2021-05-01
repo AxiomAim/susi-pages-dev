@@ -1,0 +1,228 @@
+[  
+    { 
+      "id": 1,
+      "name": "LB-300",
+      "pictures": [
+        {
+          "src": "https://res.cloudinary.com/susiadapters-com/image/upload/v1597348182/susi_2020_website/pictures/LB-300/LB-300.jpg",
+          "thumb": "https://res.cloudinary.com/susiadapters-com/image/upload/v1597348182/susi_2020_website/pictures/LB-300/LB-300.jpg"
+        },
+        {
+            "src": "https://res.cloudinary.com/susiadapters-com/image/upload/v1597348182/susi_2020_website/pictures/LB-300/LB-300_90.jpg",
+            "thumb": "https://res.cloudinary.com/susiadapters-com/image/upload/v1597348182/susi_2020_website/pictures/LB-300/LB-300_90.jpg"
+        },
+        {
+            "src": "https://res.cloudinary.com/susiadapters-com/image/upload/v1597348182/susi_2020_website/pictures/LB-300/LB-300_180.jpg",
+            "thumb": "https://res.cloudinary.com/susiadapters-com/image/upload/v1597348182/susi_2020_website/pictures/LB-300/LB-300_180.jpg"
+        },
+        {
+            "src": "https://res.cloudinary.com/susiadapters-com/image/upload/v1597348182/susi_2020_website/pictures/LB-300/LB-300_270.jpg",
+            "thumb": "https://res.cloudinary.com/susiadapters-com/image/upload/v1597348182/susi_2020_website/pictures/LB-300/LB-300_270.jpg"
+        }
+      ]
+    },
+    { 
+        "id": 2,
+        "name": "LB-50",
+        "pictures": [
+        {
+            "src": "https://res.cloudinary.com/susiadapters-com/image/upload/v1597348147/susi_2020_website/pictures/LB-50/LB-50_0.jpg",
+            "thumb": "https://res.cloudinary.com/susiadapters-com/image/upload/v1597348147/susi_2020_website/pictures/LB-50/LB-50_0.jpg"
+        },
+        {
+            "src": "https://res.cloudinary.com/susiadapters-com/image/upload/v1597348147/susi_2020_website/pictures/LB-50/LB-50_90.jpg",
+            "thumb": "https://res.cloudinary.com/susiadapters-com/image/upload/v1597348147/susi_2020_website/pictures/LB-50/LB-50_90.jpg"
+        },
+        {
+            "src": "https://res.cloudinary.com/susiadapters-com/image/upload/v1597348147/susi_2020_website/pictures/LB-50/LB-50_180.jpg",
+            "thumb": "https://res.cloudinary.com/susiadapters-com/image/upload/v1597348147/susi_2020_website/pictures/LB-50/LB-50_180.jpg"
+        },
+        {
+            "src": "https://res.cloudinary.com/susiadapters-com/image/upload/v1597348147/susi_2020_website/pictures/LB-50/LB-50_ISO.jpg",
+            "thumb": "https://res.cloudinary.com/susiadapters-com/image/upload/v1597348147/susi_2020_website/pictures/LB-50/LB-50_ISO.jpg"
+        }
+      ]
+    },
+    { 
+        "id": 3,
+        "name": "PGSSQ-TS",
+        "pictures": [
+        {
+            "src": "https://res.cloudinary.com/susiadapters-com/image/upload/v1597348196/susi_2020_website/pictures/PGSSQ-TS/PGSSQ-TS_0.jpg",
+            "thumb": "https://res.cloudinary.com/susiadapters-com/image/upload/v1597348196/susi_2020_website/pictures/PGSSQ-TS/PGSSQ-TS_0.jpg"
+        },
+        {
+            "src": "https://res.cloudinary.com/susiadapters-com/image/upload/v1597348196/susi_2020_website/pictures/PGSSQ-TS/PGSSQ-TS_90.jpg",
+            "thumb": "https://res.cloudinary.com/susiadapters-com/image/upload/v1597348196/susi_2020_website/pictures/PGSSQ-TS/PGSSQ-TS_90.jpg"
+        },
+        {
+            "src": "https://res.cloudinary.com/susiadapters-com/image/upload/v1597348197/susi_2020_website/pictures/PGSSQ-TS/PGSSQ-TS_180.jpg",
+            "thumb": "https://res.cloudinary.com/susiadapters-com/image/upload/v1597348197/susi_2020_website/pictures/PGSSQ-TS/PGSSQ-TS_180.jpg"
+        },
+        {
+            "src": "https://res.cloudinary.com/susiadapters-com/image/upload/v1597348195/susi_2020_website/pictures/PGSSQ-TS/PGSSQ-TS_270.jpg",
+            "thumb": "https://res.cloudinary.com/susiadapters-com/image/upload/v1597348195/susi_2020_website/pictures/PGSSQ-TS/PGSSQ-TS_270.jpg"
+        },
+        {
+            "src": "https://res.cloudinary.com/susiadapters-com/image/upload/v1597348196/susi_2020_website/pictures/PGSSQ-TS/PGSSQ-TS.jpg",
+            "thumb": "https://res.cloudinary.com/susiadapters-com/image/upload/v1597348196/susi_2020_website/pictures/PGSSQ-TS/PGSSQ-TS.jpg"
+        }
+      ]
+    },
+    { 
+        "id": 4,
+        "name": "PS9",
+        "pictures": [
+        {
+            "src": "https://res.cloudinary.com/susiadapters-com/image/upload/v1597348203/susi_2020_website/pictures/PS9/PS9.jpg",
+            "thumb": "https://res.cloudinary.com/susiadapters-com/image/upload/v1597348203/susi_2020_website/pictures/PS9/PS9.jpg"
+        }
+      ]
+    },
+    { 
+        "id": 5,
+        "name": "SWAAF9",
+        "pictures": [
+        {
+            "src": "https://res.cloudinary.com/susiadapters-com/image/upload/v1597348212/susi_2020_website/pictures/SWAAF9/SWAAF9.jpg",
+            "thumb": "https://res.cloudinary.com/susiadapters-com/image/upload/v1597348212/susi_2020_website/pictures/SWAAF9/SWAAF9.jpg"
+        },
+        {
+            "src": "https://res.cloudinary.com/susiadapters-com/image/upload/v1597348212/susi_2020_website/pictures/SWAAF9/SWAAF9_0.jpg",
+            "thumb": "https://res.cloudinary.com/susiadapters-com/image/upload/v1597348212/susi_2020_website/pictures/SWAAF9/SWAAF9_0.jpg"
+        },
+        {
+            "src": "https://res.cloudinary.com/susiadapters-com/image/upload/v1597348212/susi_2020_website/pictures/SWAAF9/SWAAF9_90.jpg",
+            "thumb": "https://res.cloudinary.com/susiadapters-com/image/upload/v1597348212/susi_2020_website/pictures/SWAAF9/SWAAF9_90.jpg"
+        },
+        {
+            "src": "https://res.cloudinary.com/susiadapters-com/image/upload/v1597348212/susi_2020_website/pictures/SWAAF9/SWAAF9_180.jpg",
+            "thumb": "https://res.cloudinary.com/susiadapters-com/image/upload/v1597348212/susi_2020_website/pictures/SWAAF9/SWAAF9_180.jpg"
+        },
+        {
+            "src": "https://res.cloudinary.com/susiadapters-com/image/upload/v1597348212/susi_2020_website/pictures/SWAAF9/SWAAF9_270.jpg",
+            "thumb": "https://res.cloudinary.com/susiadapters-com/image/upload/v1597348212/susi_2020_website/pictures/SWAAF9/SWAAF9_270.jpg"
+        }
+      ]
+    },
+    { 
+        "id": 6,
+        "name": "SWBXS9",
+        "pictures": [
+        {
+            "src": "https://res.cloudinary.com/susiadapters-com/image/upload/v1597348203/susi_2020_website/pictures/PS9/PS9.jpg",
+            "thumb": "https://res.cloudinary.com/susiadapters-com/image/upload/v1597348203/susi_2020_website/pictures/PS9/PS9.jpg"
+        }
+      ]
+    },
+    { 
+        "id": 7,
+        "name": "SWDGS9",
+        "pictures": [
+        {
+            "src": "https://res.cloudinary.com/susiadapters-com/image/upload/v1597348203/susi_2020_website/pictures/PS9/PS9.jpg",
+            "thumb": "https://res.cloudinary.com/susiadapters-com/image/upload/v1597348203/susi_2020_website/pictures/PS9/PS9.jpg"
+        }
+      ]
+    },
+    { 
+        "id": 8,
+        "name": "SWDJL9",
+        "pictures": [
+        {
+            "src": "https://res.cloudinary.com/susiadapters-com/image/upload/v1597348203/susi_2020_website/pictures/PS9/PS9.jpg",
+            "thumb": "https://res.cloudinary.com/susiadapters-com/image/upload/v1597348203/susi_2020_website/pictures/PS9/PS9.jpg"
+        }
+      ]
+    },
+    { 
+        "id": 9,
+        "name": "SWDWM9",
+        "pictures": [
+        {
+            "src": "https://res.cloudinary.com/susiadapters-com/image/upload/v1597348203/susi_2020_website/pictures/PS9/PS9.jpg",
+            "thumb": "https://res.cloudinary.com/susiadapters-com/image/upload/v1597348203/susi_2020_website/pictures/PS9/PS9.jpg"
+        }
+      ]
+    },
+    { 
+        "id": 10,
+        "name": "SWFXS9",
+        "pictures": [
+        {
+            "src": "https://res.cloudinary.com/susiadapters-com/image/upload/v1597348203/susi_2020_website/pictures/PS9/PS9.jpg",
+            "thumb": "https://res.cloudinary.com/susiadapters-com/image/upload/v1597348203/susi_2020_website/pictures/PS9/PS9.jpg"
+        }
+      ]
+    },
+    { 
+        "id": 11,
+        "name": "SWRGL9",
+        "pictures": [
+        {
+            "src": "https://res.cloudinary.com/susiadapters-com/image/upload/v1597348203/susi_2020_website/pictures/PS9/PS9.jpg",
+            "thumb": "https://res.cloudinary.com/susiadapters-com/image/upload/v1597348203/susi_2020_website/pictures/PS9/PS9.jpg"
+        }
+      ]
+    },
+    { 
+        "id": 12,
+        "name": "SWRGS6",
+        "pictures": [
+        {
+            "src": "https://res.cloudinary.com/susiadapters-com/image/upload/v1597348203/susi_2020_website/pictures/PS9/PS9.jpg",
+            "thumb": "https://res.cloudinary.com/susiadapters-com/image/upload/v1597348203/susi_2020_website/pictures/PS9/PS9.jpg"
+        }
+      ]
+    },
+    { 
+        "id": 13,
+        "name": "SWRJL5",
+        "pictures": [
+        {
+            "src": "https://res.cloudinary.com/susiadapters-com/image/upload/v1597348203/susi_2020_website/pictures/PS9/PS9.jpg",
+            "thumb": "https://res.cloudinary.com/susiadapters-com/image/upload/v1597348203/susi_2020_website/pictures/PS9/PS9.jpg"
+        }
+      ]
+    },
+    { 
+        "id": 14,
+        "name": "SWRWL9",
+        "pictures": [
+        {
+            "src": "https://res.cloudinary.com/susiadapters-com/image/upload/v1597348203/susi_2020_website/pictures/PS9/PS9.jpg",
+            "thumb": "https://res.cloudinary.com/susiadapters-com/image/upload/v1597348203/susi_2020_website/pictures/PS9/PS9.jpg"
+        }
+      ]
+    },
+    { 
+        "id": 15,
+        "name": "SWRWS9",
+        "pictures": [
+        {
+            "src": "https://res.cloudinary.com/susiadapters-com/image/upload/v1597348203/susi_2020_website/pictures/PS9/PS9.jpg",
+            "thumb": "https://res.cloudinary.com/susiadapters-com/image/upload/v1597348203/susi_2020_website/pictures/PS9/PS9.jpg"
+        }
+      ]
+    },
+    { 
+        "id": 16,
+        "name": "SWSGL9",
+        "pictures": [
+        {
+            "src": "https://res.cloudinary.com/susiadapters-com/image/upload/v1597348203/susi_2020_website/pictures/PS9/PS9.jpg",
+            "thumb": "https://res.cloudinary.com/susiadapters-com/image/upload/v1597348203/susi_2020_website/pictures/PS9/PS9.jpg"
+        }
+      ]
+    },
+    { 
+        "id": 17,
+        "name": "SWSWS9",
+        "pictures": [
+        {
+            "src": "https://res.cloudinary.com/susiadapters-com/image/upload/v1597348203/susi_2020_website/pictures/PS9/PS9.jpg",
+            "thumb": "https://res.cloudinary.com/susiadapters-com/image/upload/v1597348203/susi_2020_website/pictures/PS9/PS9.jpg"
+        }
+      ]
+    }
+  ]

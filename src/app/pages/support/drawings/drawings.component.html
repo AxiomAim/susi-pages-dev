@@ -1,0 +1,37 @@
+<!-- <div class="susi-body">
+    <h1>Brochures</h1>
+    <app-susi-pdf [src]="src"></app-susi-pdf>
+</div> -->
+
+
+<mat-form-field appearance="outline" class="w-100">
+    <input matInput (keyup)="applyFilter($event.target.value)" placeholder="Filter Items" autocomplete="off">
+</mat-form-field>
+
+<div class="table-wrapper susi-body">
+    <table mat-table [dataSource]="dataSource" matSort class="w-100">
+        <ng-container matColumnDef="image">
+            <th mat-header-cell *matHeaderCellDef> Type </th>
+            <td mat-cell *matCellDef="let data">
+                <div *ngIf="data.image">
+                    <img [src]="data.image" [style.width.px]="25" class="d-block">
+                </div>
+            </td>
+        </ng-container>
+
+        <ng-container matColumnDef="fileName">
+            <th mat-header-cell *matHeaderCellDef mat-sort-header> Name </th>
+            <td mat-cell *matCellDef="let data">{{data.fileName}}</td>
+        </ng-container>
+
+        <ng-container matColumnDef="downloadUrl">
+            <th mat-header-cell *matHeaderCellDef mat-sort-header></th>
+            <td mat-cell *matCellDef="let data"></td>
+        </ng-container>
+        <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+        <tr mat-row *matRowDef="let row; columns: displayedColumns;" [routerLink]="['/support/drawings-pdf', row.downloadUrl]">
+        </tr>
+    </table>
+    <p *ngIf="dataSource?.data.length === 0" class="py-5 mb-0 text-center">No data available</p>
+</div>
+<!-- <mat-paginator [pageSizeOptions]="[10, 25, 100]"></mat-paginator> -->

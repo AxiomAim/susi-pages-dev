@@ -1,0 +1,21 @@
+[
+    { 
+        "id": 1, 
+        "title": "", 
+        "type": "", 
+        "category": "", 
+        "sub-category": "", 
+        "image": "",
+        "link": ""
+    },
+    { 
+        "id": 2, 
+        "title": "", 
+        "type": "", 
+        "category": "", 
+        "sub-category": "", 
+        "image": "",
+        "link": ""
+    }
+
+]

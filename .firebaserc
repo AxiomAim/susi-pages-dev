@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "susi-pages-dev"
+  },
+  "targets": {
+    "susi-pages-dev": {
+      "hosting": {
+        "susi": [
+          "susi-pages-dev"
+        ]
+      }
+    }
+  }
+}

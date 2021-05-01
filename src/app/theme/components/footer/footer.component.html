@@ -1,0 +1,61 @@
+<footer>
+
+    <div class="px-3">
+        <div class="theme-container">
+            <div class="py-5 content border-lighter">
+                <div fxLayout="row wrap" fxLayoutAlign="space-between">
+                    <div fxFlex="100" fxFlex.gt-sm="30" fxFlex.sm="45">
+                        <a class="logo" routerLink="/" (click)="scrollToTop()">
+                            <app-logo></app-logo>
+                        </a>
+                        <p class="mt-3 mb-3 p-3 desc">For over 20 years SUSI has been providing adapters worldwide.</p>
+                    </div>
+
+                    <div fxFlex="100" fxFlex.gt-sm="30" fxFlex.sm="45" ngClass.xs="pt-5">
+                        <p fxLayout="row" fxLayoutAlign="start center" class="mt-1">
+                            <mat-icon color="accent">call</mat-icon>
+                            <span class="mx-2">(770) 448-6810</span>
+                        </p>
+                        <a href="mailto:sales@susiadapters.com" target="_blank">
+                            <p fxLayout="row" fxLayoutAlign="start center" class="mt-1">
+                                <mat-icon color="accent">mail_outline</mat-icon>
+                                <span class="mx-2">sales@SUSIadapters.com</span>
+                            </p>
+                        </a>
+                        <p fxLayout="row" fxLayoutAlign="start center" class="mt-1">
+                            <mat-icon color="accent">schedule</mat-icon>
+                            <span class="mx-2">Mon - Fri / 9:00AM - 5:00PM ET</span>
+                        </p>
+                        <p fxLayout="row" fxLayoutAlign="start center" class="mt-1">
+                            <a href="https://www.google.com/maps/place/3020+Business+Park+Drive+Suite+E,+Norcross,+GA+30071/@33.9546246,-84.2117469,17z/data=!3m1!4b1!4m5!3m4!1s0x88f5a1145fc52fff:0xd158992c2f2f5bd7!8m2!3d33.9546246!4d-84.2095582"
+                                target="_blank" style="text-decoration: none;">
+                                <p fxLayout="row" fxLayoutAlign="start center" class="mt-1">
+                                    <mat-icon color="accent">business</mat-icon>
+                                    <span class="mx-2">3020 Business Park Drive Suite E</span>
+                                </p>
+                                <p fxLayout="row" fxLayoutAlign="start center" class="mt-1">
+                                    <mat-icon color="accent"></mat-icon>
+                                    <span class="mx-2">Norcross, GA 30071</span>
+                                </p>
+                            </a>
+                        </p>
+                    </div>
+
+                    <div fxFlex="100" fxFlex.gt-sm="30" ngClass.lt-md="pt-5" class="desc">
+                        <app-social-icons [iconSize]="'lg'" fxLayout="row" fxLayoutAlign="start center" class="desc">
+                        </app-social-icons>
+                        <app-store-badges [iconSize]="'lg'" fxLayout="row" fxLayoutAlign="start center" class="desc">
+                        </app-store-badges>
+                    </div>
+                </div>
+            </div>
+
+            <div fxLayout="row" fxLayout.xs="column" fxLayoutAlign="space-between center" class="copyright">
+                <p ngClass.xs="mt-1">Copyright © 2021 All Rights Reserved</p>
+                <p>Designed & Developed by <a mat-button href="http://axiomaim.com/" target="_blank">AxiomAim</a></p>
+            </div>
+
+        </div>
+    </div>
+
+</footer>

@@ -1,0 +1,42 @@
+<p>{{ supportCategory }}</p>
+<div class="dropzone" 
+      dropzone
+     (hovered)="toggleHover($event)"
+     (dropped)="onDrop($event)"
+     [class.hovering]="isHovering">
+
+     <h3>Image Drop Zone</h3>
+     <p>Drag and Drop a File</p>
+     <div class="file">
+        <label class="file-label">
+
+          <input class="file-input" type="file" (change)="onDrop($event.target.files)">
+
+          <span class="file-cta">
+            <span class="file-icon">
+              <i class="fa fa-upload"></i>
+            </span>
+            <span class="file-label">
+              or choose a file…
+            </span>
+          </span>
+        </label>
+      </div>
+</div>
+
+<div cdkDropList class="example-list" (cdkDropListDropped)="drop($event)">
+  <div class="example-box" *ngFor="let item of support.slideShows" cdkDrag>
+    <div class="example-custom-placeholder" *cdkDragPlaceholder></div>
+    <img [src]="item.image" [style.width.px]="25" class="d-block">
+    <div>{{ item.fileName }}</div>
+    <button mat-icon-button color="warn" (click)="remove(item)" matTooltip="Remove" class="remove">
+      <mat-icon>delete</mat-icon>
+    </button>
+  </div>
+</div>
+
+<h3>Uploads</h3>
+
+<div *ngFor="let file of files">
+  <app-support-upload [supportId]="supportId" [supportCategory]="supportCategory" [file]="file"></app-support-upload>
+</div>

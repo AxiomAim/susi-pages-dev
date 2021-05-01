@@ -1,0 +1,26 @@
+<div class="px-3">
+    <div class="theme-container susi-videos" ngClass.lt-md="mt-3">
+        <gallery id="mixedExample" class="content" [thumbTemplate]="thumbTemplate" [itemTemplate]="itemTemplate"></gallery>
+
+        <!-- Add custom template to thumbnails -->
+        <ng-template #thumbTemplate let-type="type">
+          <span *ngIf="type === 'youtube'" class="item-type">
+            <fa-icon [icon]="youtubeIcon" size="lg"></fa-icon>
+          </span>
+          <span *ngIf="type === 'video'" class="item-type">
+            <fa-icon [icon]="videoIcon" size="lg"></fa-icon>
+          </span>
+        </ng-template>
+        
+        <!-- Add custom template to image items -->
+        <ng-template #itemTemplate
+                     let-index="index"
+                     let-type="type"
+                     let-data="data"
+                     let-currIndex="currIndex">
+          <span *ngIf="type === 'image' && index === currIndex" [@slideAnimation] class="item-text">
+            {{data?.title}}
+          </span>
+        </ng-template>
+    </div>
+</div>

@@ -1,0 +1,170 @@
+[
+    {
+        "id": 1,
+        "productType": "SWR",
+        "productStatus": ["SWR"],
+        "utility": true,
+        "industrial": false,
+        "commercial": false,
+        "universities": false,
+        "title": "SWR Series", 
+        "desc": "Retrofit Socket Adapters",
+        "manufacturer": "SUSI Adapters",
+        "type": "Retrofit",
+        "gallery": [         
+            {
+                "small": "assets/images/susi/susi_series/SWR-small.jpg",
+                "medium": "assets/images/susi/susi_series/SWR-medium.jpg",
+                "big": "assets/images/susi/susi_series/SWR-big.jpg"
+            }
+        ],
+        "link": "https://firebasestorage.googleapis.com/v0/b/susi-pages.appspot.com/o/products%2Fadapter_series%2F600-1600-00-B%20Retrofit%20Socket%20Adapters.pdf?alt=media&token=de964cc8-da9e-4984-bc71-0c2a9a0cf51e"
+    },
+    {
+        "id": 2,
+        "productType": "SWD",
+        "productStatus": ["SWD"],
+        "utility": false,
+        "industrial": true,
+        "commercial": true,
+        "universities": true,
+        "title": "SWD Series", 
+        "desc": "Retrofit Panel Adapters",
+        "manufacturer": "SUSI Adapters",
+        "type": "Retrofit",
+        "gallery": [         
+            {
+                "small": "assets/images/susi/susi_series/SWD-small.jpg",
+                "medium": "assets/images/susi/susi_series/SWD-medium.jpg",
+                "big": "assets/images/susi/susi_series/SWD-big.jpg"
+            }
+        ],
+        "link": "https://firebasestorage.googleapis.com/v0/b/susi-pages.appspot.com/o/products%2Fadapter_series%2F600-1500-03-B%20Retrofit%20Panel%20Adapters.pdf?alt=media&token=b1733f15-f21e-4917-bc45-a282e09bf017"
+    },
+    {
+        "id": 3,
+        "productType": "SWA",
+        "productStatus": ["SWA"],
+        "utility": true,
+        "industrial": false,
+        "commercial": false,
+        "universities": false,
+        "title": "SWA Series", 
+        "desc": "Flush Mount Panel Adapters",
+        "manufacturer": "SUSI Adapters",
+        "type": "Retrofit",
+        "gallery": [         
+            {
+                "small": "assets/images/susi/susi_series/SWA-small.jpg",
+                "medium": "assets/images/susi/susi_series/SWA-medium.jpg",
+                "big": "assets/images/susi/susi_series/SWA-big.jpg"
+            }
+        ],
+        "link": "https://firebasestorage.googleapis.com/v0/b/susi-pages.appspot.com/o/products%2Fadapter_series%2F600-1050-01-B%20Flush%20Mount%20Panel%20Adapters.pdf?alt=media&token=a2b15376-0c87-4801-9d87-4acfeba6e1d4"
+    },
+    {
+        "id": 4,
+        "productType": "SWI",
+        "productStatus": ["SWI"],
+        "utility": true,
+        "industrial": false,
+        "commercial": false,
+        "universities": false,
+        "title": "SWI Series", 
+        "desc": "Integratred Adapters",
+        "manufacturer": "SUSI Adapters",
+        "type": "Retrofit",
+        "gallery": [         
+            {
+                "small": "assets/images/susi/susi_series/SWI-small.jpg",
+                "medium": "assets/images/susi/susi_series/SWI-medium.jpg",
+                "big": "assets/images/susi/susi_series/SWI-big.jpg"
+            }
+        ],
+        "link": "https://firebasestorage.googleapis.com/v0/b/susi-pages.appspot.com/o/products%2Fadapter_series%2F600-1700-00-A%20Integrated%20Adapters.pdf?alt=media&token=7b46024e-93fe-4645-87bc-46b389968940"
+    },
+    {
+        "id": 5,
+        "productType": "SWB",
+        "productStatus": ["SWB"],
+        "utility": true,
+        "industrial": false,
+        "commercial": false,
+        "universities": false,
+        "title": "SWB Series", 
+        "desc": "Surface Mount Adapters",
+        "manufacturer": "SUSI Adapters",
+        "type": "Retrofit",
+        "gallery": [         
+            {
+                "small": "assets/images/susi/susi_series/SWB-small.jpg",
+                "medium": "assets/images/susi/susi_series/SWB-medium.jpg",
+                "big": "assets/images/susi/susi_series/SWB-big.jpg"
+            }
+        ],
+        "link": "https://firebasestorage.googleapis.com/v0/b/susi-pages.appspot.com/o/products%2Fadapter_series%2F600-1100-01-B%20Surface%20Mount%20Panel%20Adapter.pdf?alt=media&token=59d32ca4-e4d0-47d8-8a6f-ca5cb1d98916"
+    },
+    {
+        "id": 6,
+        "productType": "SWL",
+        "productStatus": ["SWL"],
+        "utility": true,
+        "industrial": false,
+        "commercial": false,
+        "universities": false,
+        "title": "SWL Series", 
+        "desc": "Retrofit Relay Adapters",
+        "manufacturer": "SUSI Adapters",
+        "type": "Retrofit",
+        "gallery": [         
+            {
+                "small": "assets/images/susi/susi_series/SWL-small.jpg",
+                "medium": "assets/images/susi/susi_series/SWL-medium.jpg",
+                "big": "assets/images/susi/susi_series/SWL-big.jpg"
+            }
+        ],
+        "link": "https://firebasestorage.googleapis.com/v0/b/susi-pages.appspot.com/o/products%2Fadapter_series%2F600-1800-00-E_SWL_%20retrofit_relay_adapters_schneider.pdf?alt=media&token=a5569031-7491-4a2b-9afd-89ecd6946e5b"
+    },
+    {
+        "id": 7,
+        "productType": "PS",
+        "productStatus": ["PS"],
+        "utility": false,
+        "industrial": true,
+        "commercial": true,
+        "universities": true,
+        "title": "PS Series", 
+        "desc": "Panel Socket Adapters",
+        "manufacturer": "SUSI Adapters",
+        "type": "Retrofit",
+        "gallery": [         
+            {
+                "small": "assets/images/susi/susi_series/PS-small.jpg",
+                "medium": "assets/images/susi/susi_series/PS-medium.jpg",
+                "big": "assets/images/susi/susi_series/PS-big.jpg"
+            }
+        ],
+        "link": "https://firebasestorage.googleapis.com/v0/b/susi-pages.appspot.com/o/products%2Fadapter_series%2F600-3001-20-B_PS9_schneider.pdf?alt=media&token=46e94cb2-3bff-4a4e-8d00-1afe63514119"
+   },
+   {
+    "id": 7,
+    "productType": "SWF",
+    "productStatus": ["SWF"],
+    "utility": false,
+    "industrial": true,
+    "commercial": true,
+    "universities": true,
+    "title": "SWF Series", 
+    "desc": "Non-case Adapters",
+    "manufacturer": "SUSI Adapters",
+    "type": "Retrofit",
+    "gallery": [         
+        {
+            "small": "assets/images/susi/susi_series/SWF-small.jpg",
+            "medium": "assets/images/susi/susi_series/SWF-medium.jpg",
+            "big": "assets/images/susi/susi_series/SWF-big.jpg"
+    }
+    ],
+    "link": "https://firebasestorage.googleapis.com/v0/b/susi-pages.appspot.com/o/products%2Fadapter_series%2F600-3710-00-A%20SWF%20Surface%20Mount%20Panel%20Adapters.pdf?alt=media&token=de51d721-2c6c-4bb4-9244-974690c36b9f"
+}
+]

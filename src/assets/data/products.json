@@ -1,0 +1,1258 @@
+[
+    {
+        "id": 1,
+        "title": "Integra 2270", 
+        "desc": "This Retrofit Panel Adapter allows the user to install a small panel meter into any switchboard panel. The installation can be done in minutes without de-energizing the circuit or re-wiring anything.",
+        "manufacturer": "Crompton Instruments",
+        "type": "Retrofit",
+        "propertyType": "Apartment",
+        "productType": ["SWD Series"],
+        "city": "New York",
+        "zipCode": "10033",
+        "neighborhood": ["Astoria", "Midtown"],
+        "street": ["Astoria Street #1", "Midtown Street #2"],
+        "spin": "https://womblewatch.sirv.com/products/ww00001/ww00001.spin",
+        "location" : {
+            "lat": 40.849150,
+            "lng": -73.935100
+        },
+        "formattedAddress" : "611 W 180th St, New York, NY 10033, USA",
+        "features": ["Air Conditioning", "Barbeque", "Dryer", "Microwave", "Refrigerator", "Fireplace", "Swimming Pool", "TV Cable", "WiFi"],
+        "featured": false, 
+        "priceDollar": {
+            "sale": 1300000,
+            "rent": null
+        },
+        "priceEuro": {
+            "sale": 1160000,
+            "rent": null
+        },
+        "bedrooms": 2,
+        "bathrooms": 2,
+        "garages": 1,
+        "area": {
+            "value": 2380,
+            "unit": "ft²"
+        },
+        "yearBuilt": 2007,
+        "ratingsCount": 3,
+        "ratingsValue": 280,
+        "additionalFeatures": [                
+            {
+                "name": "Heat",
+                "value": "Natural Gas"
+            },
+            {
+                "name": "Roof",
+                "value": "Composition/Shingle"
+            },
+            {
+                "name": "Floors",
+                "value": "Wall-to-Wall Carpet"
+            },
+            {
+                "name": "Water",
+                "value": "District/Public"
+            },
+            {
+                "name": "Cross Streets",
+                "value": "Orangethorpe-Gilbert"
+            },
+            {
+                "name": "Windows",
+                "value": "Skylights"
+            },
+            {
+                "name": "Flat",
+                "value": "5"
+            },
+            {
+                "name": "Childroom",
+                "value": "2"
+            }
+        ],
+        "gallery": [         
+            {
+                "small": "assets/images/susi-products/Integra 2270 36 4.jpg",
+                "medium": "assets/images/susi-products/Integra 2270 36 5.jpg",
+                "big": "assets/images/susi-products/Integra 2270 36 6.jpg"
+            },
+            {
+                "small": "assets/images/susi-products/Integra 2270 36 8.jpg",
+                "medium": "assets/images/susi-products/Integra 2270 36 8.jpg",
+                "big": "assets/images/susi-products/Integra 2270 36 8.jpg"
+            },
+            {
+                "small": "assets/images/susi-products/Integra 2270 36 14.jpg",
+                "medium": "assets/images/susi-products/Integra 2270 36 14.jpg",
+                "big": "assets/images/susi-products/Integra 2270 36 14.jpg"
+            },
+            {
+                "small": "assets/images/susi-products/Integra 2270 36 18.jpg",
+                "medium": "assets/images/susi-products/Integra 2270 36 18.jpg",
+                "big": "assets/images/susi-products/Integra 2270 36 18.jpg"
+            },
+            {
+                "small": "assets/images/susi-products/Integra 2270 36 23.jpg",
+                "medium": "assets/images/susi-products/Integra 2270 36 23.jpg",
+                "big": "assets/images/susi-products/Integra 2270 36 23.jpg"
+            },
+            {
+                "small": "assets/images/susi-products/Integra 2270 36 26.jpg",
+                "medium": "assets/images/susi-products/Integra 2270 36 26.jpg",
+                "big": "assets/images/susi-products/Integra 2270 36 26.jpg"
+            },
+            {
+                "small": "assets/images/susi-products/Integra 2270 36 32.jpg",
+                "medium": "assets/images/susi-products/Integra 2270 36 32.jpg",
+                "big": "assets/images/susi-products/Integra 2270 36 32.jpg"
+            },
+            {
+                "small": "assets/images/susi-products/Integra 2270 36 33.jpg",
+                "medium": "assets/images/susi-products/Integra 2270 36 33.jpg",
+                "big": "assets/images/susi-products/Integra 2270 36 33.jpg"
+            },
+            {
+                "small": "assets/images/susi-products/Integra 2270 36 35.jpg",
+                "medium": "assets/images/susi-products/Integra 2270 36 35.jpg",
+                "big": "assets/images/susi-products/Integra 2270 36 35.jpg"
+            }
+        ],
+        "plans": [
+            {
+                "name": "First floor",
+                "desc": "Plan description. Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium magnam veniam sit reprehenderit deserunt ad voluptates id aperiam veritatis! Nobis saepe quos eveniet numquam vitae quis, tenetur consectetur impedit dolore.",
+                "area": {
+                    "value": 1180,
+                    "unit": "ft²"
+                },
+                "rooms": 3,
+                "baths": 1,
+                "image": "assets/images/others/plan-1.jpg"
+            },
+            {
+                "name": "Second floor",
+                "desc": "Plan description. Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium magnam veniam sit reprehenderit deserunt ad voluptates id aperiam veritatis! Nobis saepe quos eveniet numquam vitae quis, tenetur consectetur impedit dolore.",
+                "area": {
+                    "value": 1200,
+                    "unit": "ft²"
+                },
+                "rooms": 5,
+                "baths": 2,
+                "image": "assets/images/others/plan-2.jpg"
+            }
+        ],
+        "videos": [
+            {
+                "name": "Video with 'mat-video' plugin",
+                "link": "http://themeseason.com/data/videos/video-1.mp4"
+            },
+            {
+                "name": "Video with 'ngx-embed-video' plugin",
+                "link": "https://www.youtube.com/watch?v=-NInBEdSvp8"
+            }
+        ],
+        "published": "2012-08-12 17:17:30",
+        "lastUpdate": "2019-05-20 14:20:00",
+        "views": 322
+    },
+    {
+        "id": 2,
+        "title": "Integra 2270", 
+        "desc": "This Retrofit Panel Adapter allows the user to install a small panel meter into any switchboard panel. The installation can be done in minutes without de-energizing the circuit or re-wiring anything.",
+        "type": "Retrofit",
+        "manufacturer": "Crompton Instruments",
+        "propertyType": "Office",
+        "productType": ["SWD Series"],
+        "city": "Los Angeles",
+        "zipCode": "90044",
+        "neighborhood": ["Hollywood", "Highland Park"],
+        "street": ["Hollywood Street #2", "Highland Park Street #1"],
+        "spin": "https://womblewatch.sirv.com/products/ww00002/ww00002.spin",
+        "location" : {
+            "lat": 33.954220,
+            "lng": -118.293730
+        },
+        "formattedAddress" : "1052 W 91st St, Los Angeles, CA 90044, USA",
+        "features": ["Air Conditioning", "Barbeque", "Dryer", "Microwave", "Refrigerator", "Fireplace", "Sauna", "TV Cable", "WiFi"], 
+        "featured": true,
+        "priceDollar": {
+            "sale": null,
+            "rent": 6500
+        },
+        "priceEuro": {
+            "sale": null,
+            "rent": 5800
+        },
+        "bedrooms": 4,
+        "bathrooms": 2,
+        "garages": 2,
+        "area": {
+            "value": 1500,
+            "unit": "ft²"
+        },
+        "yearBuilt": 2012,
+        "ratingsCount": 4,
+        "ratingsValue": 400,
+        "additionalFeatures": [                
+            {
+                "name": "Heat",
+                "value": "Natural Gas"
+            },
+            {
+                "name": "Roof",
+                "value": "Composition/Shingle"
+            },
+            {
+                "name": "Floors",
+                "value": "Wall-to-Wall Carpet"
+            },
+            {
+                "name": "Water",
+                "value": "District/Public"
+            },
+            {
+                "name": "Cross Streets",
+                "value": "Orangethorpe-Gilbert"
+            },
+            {
+                "name": "Windows",
+                "value": "Skylights"
+            },
+            {
+                "name": "Flat",
+                "value": "5"
+            },
+            {
+                "name": "Childroom",
+                "value": "2"
+            }
+        ],
+        "gallery": [         
+            {
+                "small": "assets/images/susi-products/Integra 2270 36 4.jpg",
+                "medium": "assets/images/susi-products/Integra 2270 36 5.jpg",
+                "big": "assets/images/susi-products/Integra 2270 36 6.jpg"
+            },
+            {
+                "small": "assets/images/susi-products/Integra 2270 36 8.jpg",
+                "medium": "assets/images/susi-products/Integra 2270 36 8.jpg",
+                "big": "assets/images/susi-products/Integra 2270 36 8.jpg"
+            },
+            {
+                "small": "assets/images/susi-products/Integra 2270 36 14.jpg",
+                "medium": "assets/images/susi-products/Integra 2270 36 14.jpg",
+                "big": "assets/images/susi-products/Integra 2270 36 14.jpg"
+            },
+            {
+                "small": "assets/images/susi-products/Integra 2270 36 18.jpg",
+                "medium": "assets/images/susi-products/Integra 2270 36 18.jpg",
+                "big": "assets/images/susi-products/Integra 2270 36 18.jpg"
+            },
+            {
+                "small": "assets/images/susi-products/Integra 2270 36 23.jpg",
+                "medium": "assets/images/susi-products/Integra 2270 36 23.jpg",
+                "big": "assets/images/susi-products/Integra 2270 36 23.jpg"
+            },
+            {
+                "small": "assets/images/susi-products/Integra 2270 36 26.jpg",
+                "medium": "assets/images/susi-products/Integra 2270 36 26.jpg",
+                "big": "assets/images/susi-products/Integra 2270 36 26.jpg"
+            },
+            {
+                "small": "assets/images/susi-products/Integra 2270 36 32.jpg",
+                "medium": "assets/images/susi-products/Integra 2270 36 32.jpg",
+                "big": "assets/images/susi-products/Integra 2270 36 32.jpg"
+            },
+            {
+                "small": "assets/images/susi-products/Integra 2270 36 33.jpg",
+                "medium": "assets/images/susi-products/Integra 2270 36 33.jpg",
+                "big": "assets/images/susi-products/Integra 2270 36 33.jpg"
+            },
+            {
+                "small": "assets/images/susi-products/Integra 2270 36 35.jpg",
+                "medium": "assets/images/susi-products/Integra 2270 36 35.jpg",
+                "big": "assets/images/susi-products/Integra 2270 36 35.jpg"
+            }
+        ],
+        "plans": [
+            {
+                "name": "First floor",
+                "desc": "Plan description. Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium magnam veniam sit reprehenderit deserunt ad voluptates id aperiam veritatis! Nobis saepe quos eveniet numquam vitae quis, tenetur consectetur impedit dolore.",
+                "area": {
+                    "value": 1180,
+                    "unit": "ft²"
+                },
+                "rooms": 3,
+                "baths": 1,
+                "image": "assets/images/others/plan-1.jpg"
+            },
+            {
+                "name": "Second floor",
+                "desc": "Plan description. Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium magnam veniam sit reprehenderit deserunt ad voluptates id aperiam veritatis! Nobis saepe quos eveniet numquam vitae quis, tenetur consectetur impedit dolore.",
+                "area": {
+                    "value": 1200,
+                    "unit": "ft²"
+                },
+                "rooms": 5,
+                "baths": 2,
+                "image": "assets/images/others/plan-2.jpg"
+            }
+        ],
+        "videos": [
+            {
+                "name": "Video with 'mat-video' plugin",
+                "link": "http://themeseason.com/data/videos/video-1.mp4"
+            },
+            {
+                "name": "Video with 'ngx-embed-video' plugin",
+                "link": "https://www.youtube.com/watch?v=-NInBEdSvp8"
+            }
+        ],
+        "published": "2013-09-12 12:20:30",
+        "lastUpdate": "2019-05-20 14:20:00",
+        "views": 408
+    },
+    {
+        "id": 3,
+        "title": "Integra 2270", 
+        "desc": "This Retrofit Panel Adapter allows the user to install a small panel meter into any switchboard panel. The installation can be done in minutes without de-energizing the circuit or re-wiring anything.",
+        "type": "Retrofit",
+        "manufacturer": "Crompton Instruments",
+        "propertyType": "House",
+        "productType": ["SWD Series"],
+        "city": "Seattle",
+        "zipCode": "98104",
+        "neighborhood": ["Belltown"],
+        "street": ["Belltown Street #1", "Belltown Street #2"],
+        "spin": "https://womblewatch.sirv.com/products/ww00003/ww00003.spin",
+        "location" : {
+            "lat": 47.602760,
+            "lng": -122.331440
+        },
+        "formattedAddress" : "3rd Ave & James St, Seattle, WA 98104, USA", 
+        "features": ["Air Conditioning", "Barbeque", "Dryer", "Microwave", "Gym", "Fireplace", "Sauna", "TV Cable", "WiFi"],
+        "featured": false, 
+        "priceDollar": {
+            "sale": 2550000,
+            "rent": null
+        },
+        "priceEuro": {
+            "sale": 2280000,
+            "rent": null
+        },
+        "bedrooms": 3,
+        "bathrooms": 1,
+        "garages": 1,
+        "area": {
+            "value": 2100,
+            "unit": "ft²"
+        },
+        "yearBuilt": 2010,
+        "ratingsCount": 7,
+        "ratingsValue": 560,
+        "additionalFeatures": [                
+            {
+                "name": "Heat",
+                "value": "Natural Gas"
+            },
+            {
+                "name": "Roof",
+                "value": "Composition/Shingle"
+            },
+            {
+                "name": "Floors",
+                "value": "Wall-to-Wall Carpet"
+            },
+            {
+                "name": "Water",
+                "value": "District/Public"
+            },
+            {
+                "name": "Cross Streets",
+                "value": "Orangethorpe-Gilbert"
+            },
+            {
+                "name": "Windows",
+                "value": "Skylights"
+            },
+            {
+                "name": "Flat",
+                "value": "5"
+            },
+            {
+                "name": "Childroom",
+                "value": "2"
+            }
+        ],
+        "gallery": [         
+            {
+                "small": "assets/images/susi-products/Integra 2270 36 4.jpg",
+                "medium": "assets/images/susi-products/Integra 2270 36 5.jpg",
+                "big": "assets/images/susi-products/Integra 2270 36 6.jpg"
+            },
+            {
+                "small": "assets/images/susi-products/Integra 2270 36 8.jpg",
+                "medium": "assets/images/susi-products/Integra 2270 36 8.jpg",
+                "big": "assets/images/susi-products/Integra 2270 36 8.jpg"
+            },
+            {
+                "small": "assets/images/susi-products/Integra 2270 36 14.jpg",
+                "medium": "assets/images/susi-products/Integra 2270 36 14.jpg",
+                "big": "assets/images/susi-products/Integra 2270 36 14.jpg"
+            },
+            {
+                "small": "assets/images/susi-products/Integra 2270 36 18.jpg",
+                "medium": "assets/images/susi-products/Integra 2270 36 18.jpg",
+                "big": "assets/images/susi-products/Integra 2270 36 18.jpg"
+            },
+            {
+                "small": "assets/images/susi-products/Integra 2270 36 23.jpg",
+                "medium": "assets/images/susi-products/Integra 2270 36 23.jpg",
+                "big": "assets/images/susi-products/Integra 2270 36 23.jpg"
+            },
+            {
+                "small": "assets/images/susi-products/Integra 2270 36 26.jpg",
+                "medium": "assets/images/susi-products/Integra 2270 36 26.jpg",
+                "big": "assets/images/susi-products/Integra 2270 36 26.jpg"
+            },
+            {
+                "small": "assets/images/susi-products/Integra 2270 36 32.jpg",
+                "medium": "assets/images/susi-products/Integra 2270 36 32.jpg",
+                "big": "assets/images/susi-products/Integra 2270 36 32.jpg"
+            },
+            {
+                "small": "assets/images/susi-products/Integra 2270 36 33.jpg",
+                "medium": "assets/images/susi-products/Integra 2270 36 33.jpg",
+                "big": "assets/images/susi-products/Integra 2270 36 33.jpg"
+            },
+            {
+                "small": "assets/images/susi-products/Integra 2270 36 35.jpg",
+                "medium": "assets/images/susi-products/Integra 2270 36 35.jpg",
+                "big": "assets/images/susi-products/Integra 2270 36 35.jpg"
+            }
+        ],
+        "plans": [
+            {
+                "name": "First floor",
+                "desc": "Plan description. Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium magnam veniam sit reprehenderit deserunt ad voluptates id aperiam veritatis! Nobis saepe quos eveniet numquam vitae quis, tenetur consectetur impedit dolore.",
+                "area": {
+                    "value": 1180,
+                    "unit": "ft²"
+                },
+                "rooms": 3,
+                "baths": 1,
+                "image": "assets/images/others/plan-1.jpg"
+            },
+            {
+                "name": "Second floor",
+                "desc": "Plan description. Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium magnam veniam sit reprehenderit deserunt ad voluptates id aperiam veritatis! Nobis saepe quos eveniet numquam vitae quis, tenetur consectetur impedit dolore.",
+                "area": {
+                    "value": 1200,
+                    "unit": "ft²"
+                },
+                "rooms": 5,
+                "baths": 2,
+                "image": "assets/images/others/plan-2.jpg"
+            }
+        ],
+        "videos": [
+            {
+                "name": "Video with 'mat-video' plugin",
+                "link": "http://themeseason.com/data/videos/video-1.mp4"
+            },
+            {
+                "name": "Video with 'ngx-embed-video' plugin",
+                "link": "https://www.youtube.com/watch?v=-NInBEdSvp8"
+            }
+        ],
+        "published": "2011-05-12 18:20:00",
+        "lastUpdate": "2019-06-18 14:20:00",
+        "views": 587
+    },
+    {
+        "id": 4,
+        "title": "Integra 2270", 
+        "desc": "This Retrofit Panel Adapter allows the user to install a small panel meter into any switchboard panel. The installation can be done in minutes without de-energizing the circuit or re-wiring anything.",
+        "type": "Retrofit",
+        "manufacturer": "Crompton Instruments",
+        "propertyType": "Apartment",
+        "productType": ["SWD Series"],
+        "city": "Chicago",
+        "zipCode": "60604",
+        "neighborhood": ["Riverdale"],
+        "street": ["Riverdale Street #1"],
+        "spin": "https://womblewatch.sirv.com/products/ww00004/ww00004.spin",
+        "location" : {
+            "lat": 41.878113,
+            "lng": -87.629799
+        },
+        "formattedAddress": "55 W Jackson Blvd, Chicago, IL 60604, USA", 
+        "features": ["Air Conditioning", "Barbeque", "Dryer", "Microwave", "Gym", "Fireplace", "Sauna", "TV Cable", "WiFi"],
+        "featured": true, 
+        "priceDollar": {
+            "sale": 1450000,
+            "rent": null
+        },
+        "priceEuro": {
+            "sale": 1300000,
+            "rent": null
+        },
+        "bedrooms": 5,
+        "bathrooms": 2,
+        "garages": 2,
+        "area": {
+            "value": 1700,
+            "unit": "ft²"
+        },
+        "yearBuilt": 2002,
+        "ratingsCount": 3,
+        "ratingsValue": 220,
+        "additionalFeatures": [                
+            {
+                "name": "Heat",
+                "value": "Natural Gas"
+            },
+            {
+                "name": "Roof",
+                "value": "Composition/Shingle"
+            },
+            {
+                "name": "Floors",
+                "value": "Wall-to-Wall Carpet"
+            },
+            {
+                "name": "Water",
+                "value": "District/Public"
+            },
+            {
+                "name": "Cross Streets",
+                "value": "Orangethorpe-Gilbert"
+            },
+            {
+                "name": "Windows",
+                "value": "Skylights"
+            },
+            {
+                "name": "Flat",
+                "value": "5"
+            },
+            {
+                "name": "Childroom",
+                "value": "2"
+            }
+        ],
+        "gallery": [         
+            {
+                "small": "assets/images/susi-products/Integra 2270 36 4.jpg",
+                "medium": "assets/images/susi-products/Integra 2270 36 5.jpg",
+                "big": "assets/images/susi-products/Integra 2270 36 6.jpg"
+            },
+            {
+                "small": "assets/images/susi-products/Integra 2270 36 8.jpg",
+                "medium": "assets/images/susi-products/Integra 2270 36 8.jpg",
+                "big": "assets/images/susi-products/Integra 2270 36 8.jpg"
+            },
+            {
+                "small": "assets/images/susi-products/Integra 2270 36 14.jpg",
+                "medium": "assets/images/susi-products/Integra 2270 36 14.jpg",
+                "big": "assets/images/susi-products/Integra 2270 36 14.jpg"
+            },
+            {
+                "small": "assets/images/susi-products/Integra 2270 36 18.jpg",
+                "medium": "assets/images/susi-products/Integra 2270 36 18.jpg",
+                "big": "assets/images/susi-products/Integra 2270 36 18.jpg"
+            },
+            {
+                "small": "assets/images/susi-products/Integra 2270 36 23.jpg",
+                "medium": "assets/images/susi-products/Integra 2270 36 23.jpg",
+                "big": "assets/images/susi-products/Integra 2270 36 23.jpg"
+            },
+            {
+                "small": "assets/images/susi-products/Integra 2270 36 26.jpg",
+                "medium": "assets/images/susi-products/Integra 2270 36 26.jpg",
+                "big": "assets/images/susi-products/Integra 2270 36 26.jpg"
+            },
+            {
+                "small": "assets/images/susi-products/Integra 2270 36 32.jpg",
+                "medium": "assets/images/susi-products/Integra 2270 36 32.jpg",
+                "big": "assets/images/susi-products/Integra 2270 36 32.jpg"
+            },
+            {
+                "small": "assets/images/susi-products/Integra 2270 36 33.jpg",
+                "medium": "assets/images/susi-products/Integra 2270 36 33.jpg",
+                "big": "assets/images/susi-products/Integra 2270 36 33.jpg"
+            },
+            {
+                "small": "assets/images/susi-products/Integra 2270 36 35.jpg",
+                "medium": "assets/images/susi-products/Integra 2270 36 35.jpg",
+                "big": "assets/images/susi-products/Integra 2270 36 35.jpg"
+            }
+        ],
+        "plans": [
+            {
+                "name": "First floor",
+                "desc": "Plan description. Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium magnam veniam sit reprehenderit deserunt ad voluptates id aperiam veritatis! Nobis saepe quos eveniet numquam vitae quis, tenetur consectetur impedit dolore.",
+                "area": {
+                    "value": 1180,
+                    "unit": "ft²"
+                },
+                "rooms": 3,
+                "baths": 1,
+                "image": "assets/images/others/plan-1.jpg"
+            },
+            {
+                "name": "Second floor",
+                "desc": "Plan description. Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium magnam veniam sit reprehenderit deserunt ad voluptates id aperiam veritatis! Nobis saepe quos eveniet numquam vitae quis, tenetur consectetur impedit dolore.",
+                "area": {
+                    "value": 1200,
+                    "unit": "ft²"
+                },
+                "rooms": 5,
+                "baths": 2,
+                "image": "assets/images/others/plan-2.jpg"
+            }
+        ],
+        "videos": [
+            {
+                "name": "Video with 'mat-video' plugin",
+                "link": "http://themeseason.com/data/videos/video-1.mp4"
+            },
+            {
+                "name": "Video with 'ngx-embed-video' plugin",
+                "link": "https://www.youtube.com/watch?v=-NInBEdSvp8"
+            }
+        ],
+        "published": "2016-10-12 18:20:00",
+        "lastUpdate": "2019-06-11 14:20:00",
+        "views": 754
+    },
+    {
+        "id": 5,
+        "title": "Integra 2270", 
+        "desc": "This Retrofit Panel Adapter allows the user to install a small panel meter into any switchboard panel. The installation can be done in minutes without de-energizing the circuit or re-wiring anything.",
+        "type": "Retrofit",
+        "manufacturer": "Crompton Instruments",
+        "propertyType": "House",
+        "productType": ["SWD Series"],
+        "city": "Seattle",
+        "zipCode": "98108",
+        "neighborhood": ["Queen Anne", "Belltown"],
+        "street": ["Queen Anne Street #1", "Belltown Street #2"],
+        "spin": "https://womblewatch.sirv.com/products/ww00005/ww00005.spin",
+        "location" : {
+            "lat": 47.603230,
+            "lng": -122.330276
+        },
+        "formattedAddress": "5921 17th Ave S, Seattle, WA 98108, USA", 
+        "features": ["Air Conditioning", "Barbeque", "Dryer", "Microwave", "Gym", "Swimming Pool", "Sauna", "TV Cable", "WiFi"],
+        "featured": true, 
+        "priceDollar": {
+            "sale": 4500000,
+            "rent": null
+        },
+        "priceEuro": {
+            "sale": 4020000,
+            "rent": null
+        },
+        "bedrooms": 1,
+        "bathrooms": 1,
+        "garages": 1,
+        "area": {
+            "value": 2200,
+            "unit": "ft²"
+        },
+        "yearBuilt": 2007,
+        "ratingsCount": 6,
+        "ratingsValue": 480,
+        "additionalFeatures": [                
+            {
+                "name": "Heat",
+                "value": "Natural Gas"
+            },
+            {
+                "name": "Roof",
+                "value": "Composition/Shingle"
+            },
+            {
+                "name": "Floors",
+                "value": "Wall-to-Wall Carpet"
+            },
+            {
+                "name": "Water",
+                "value": "District/Public"
+            },
+            {
+                "name": "Cross Streets",
+                "value": "Orangethorpe-Gilbert"
+            },
+            {
+                "name": "Windows",
+                "value": "Skylights"
+            },
+            {
+                "name": "Flat",
+                "value": "5"
+            },
+            {
+                "name": "Childroom",
+                "value": "2"
+            }
+        ],
+        "gallery": [         
+            {
+                "small": "assets/images/susi-products/Integra 2270 36 4.jpg",
+                "medium": "assets/images/susi-products/Integra 2270 36 5.jpg",
+                "big": "assets/images/susi-products/Integra 2270 36 6.jpg"
+            },
+            {
+                "small": "assets/images/susi-products/Integra 2270 36 8.jpg",
+                "medium": "assets/images/susi-products/Integra 2270 36 8.jpg",
+                "big": "assets/images/susi-products/Integra 2270 36 8.jpg"
+            },
+            {
+                "small": "assets/images/susi-products/Integra 2270 36 14.jpg",
+                "medium": "assets/images/susi-products/Integra 2270 36 14.jpg",
+                "big": "assets/images/susi-products/Integra 2270 36 14.jpg"
+            },
+            {
+                "small": "assets/images/susi-products/Integra 2270 36 18.jpg",
+                "medium": "assets/images/susi-products/Integra 2270 36 18.jpg",
+                "big": "assets/images/susi-products/Integra 2270 36 18.jpg"
+            },
+            {
+                "small": "assets/images/susi-products/Integra 2270 36 23.jpg",
+                "medium": "assets/images/susi-products/Integra 2270 36 23.jpg",
+                "big": "assets/images/susi-products/Integra 2270 36 23.jpg"
+            },
+            {
+                "small": "assets/images/susi-products/Integra 2270 36 26.jpg",
+                "medium": "assets/images/susi-products/Integra 2270 36 26.jpg",
+                "big": "assets/images/susi-products/Integra 2270 36 26.jpg"
+            },
+            {
+                "small": "assets/images/susi-products/Integra 2270 36 32.jpg",
+                "medium": "assets/images/susi-products/Integra 2270 36 32.jpg",
+                "big": "assets/images/susi-products/Integra 2270 36 32.jpg"
+            },
+            {
+                "small": "assets/images/susi-products/Integra 2270 36 33.jpg",
+                "medium": "assets/images/susi-products/Integra 2270 36 33.jpg",
+                "big": "assets/images/susi-products/Integra 2270 36 33.jpg"
+            },
+            {
+                "small": "assets/images/susi-products/Integra 2270 36 35.jpg",
+                "medium": "assets/images/susi-products/Integra 2270 36 35.jpg",
+                "big": "assets/images/susi-products/Integra 2270 36 35.jpg"
+            }
+        ],
+        "plans": [
+            {
+                "name": "First floor",
+                "desc": "Plan description. Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium magnam veniam sit reprehenderit deserunt ad voluptates id aperiam veritatis! Nobis saepe quos eveniet numquam vitae quis, tenetur consectetur impedit dolore.",
+                "area": {
+                    "value": 1180,
+                    "unit": "ft²"
+                },
+                "rooms": 3,
+                "baths": 1,
+                "image": "assets/images/others/plan-1.jpg"
+            },
+            {
+                "name": "Second floor",
+                "desc": "Plan description. Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium magnam veniam sit reprehenderit deserunt ad voluptates id aperiam veritatis! Nobis saepe quos eveniet numquam vitae quis, tenetur consectetur impedit dolore.",
+                "area": {
+                    "value": 1200,
+                    "unit": "ft²"
+                },
+                "rooms": 5,
+                "baths": 2,
+                "image": "assets/images/others/plan-2.jpg"
+            }
+        ],
+        "videos": [
+            {
+                "name": "Video with 'mat-video' plugin",
+                "link": "http://themeseason.com/data/videos/video-1.mp4"
+            },
+            {
+                "name": "Video with 'ngx-embed-video' plugin",
+                "link": "https://www.youtube.com/watch?v=-NInBEdSvp8"
+            }
+        ],
+        "published": "2017-11-20 10:20:00",
+        "lastUpdate": "2019-04-14 14:20:00",
+        "views": 633
+    },
+    {
+        "id": 6,
+        "title": "Integra 2270", 
+        "desc": "This Retrofit Panel Adapter allows the user to install a small panel meter into any switchboard panel. The installation can be done in minutes without de-energizing the circuit or re-wiring anything.",
+        "type": "Retrofit",
+        "manufacturer": "Crompton Instruments",
+        "propertyType": "House",
+        "productType": ["SWD Series"],
+        "city": "Chicago",
+        "zipCode": "60609",
+        "neighborhood": ["Englewood", "Austin"],
+        "street": ["Englewood Street #2", "Austin Street #2"],
+        "spin": "https://womblewatch.sirv.com/products/ww00006/ww00006.spin",
+        "location" : {
+            "lat": 41.814080,
+            "lng": -87.660410
+        },
+        "formattedAddress": "1400 W 44th St, Chicago, IL 60609, USA", 
+        "features": ["Refrigerator", "Barbeque", "Dryer", "Microwave", "Gym", "Swimming Pool", "Sauna", "TV Cable", "WiFi"],
+        "featured": true, 
+        "priceDollar": {
+            "sale": null,
+            "rent": 9000
+        },
+        "priceEuro": {
+            "sale": null,
+            "rent": 8000
+        },
+        "bedrooms": 2,
+        "bathrooms": 2,
+        "garages": 1,
+        "area": {
+            "value": 1600,
+            "unit": "ft²"
+        },
+        "yearBuilt": 2017,
+        "ratingsCount": 5,
+        "ratingsValue": 400,
+        "additionalFeatures": [                
+            {
+                "name": "Heat",
+                "value": "Natural Gas"
+            },
+            {
+                "name": "Roof",
+                "value": "Composition/Shingle"
+            },
+            {
+                "name": "Floors",
+                "value": "Wall-to-Wall Carpet"
+            },
+            {
+                "name": "Water",
+                "value": "District/Public"
+            },
+            {
+                "name": "Cross Streets",
+                "value": "Orangethorpe-Gilbert"
+            },
+            {
+                "name": "Windows",
+                "value": "Skylights"
+            },
+            {
+                "name": "Flat",
+                "value": "5"
+            },
+            {
+                "name": "Childroom",
+                "value": "2"
+            }
+        ],
+        "gallery": [         
+            {
+                "small": "assets/images/susi-products/Integra 2270 36 4.jpg",
+                "medium": "assets/images/susi-products/Integra 2270 36 5.jpg",
+                "big": "assets/images/susi-products/Integra 2270 36 6.jpg"
+            },
+            {
+                "small": "assets/images/susi-products/Integra 2270 36 8.jpg",
+                "medium": "assets/images/susi-products/Integra 2270 36 8.jpg",
+                "big": "assets/images/susi-products/Integra 2270 36 8.jpg"
+            },
+            {
+                "small": "assets/images/susi-products/Integra 2270 36 14.jpg",
+                "medium": "assets/images/susi-products/Integra 2270 36 14.jpg",
+                "big": "assets/images/susi-products/Integra 2270 36 14.jpg"
+            },
+            {
+                "small": "assets/images/susi-products/Integra 2270 36 18.jpg",
+                "medium": "assets/images/susi-products/Integra 2270 36 18.jpg",
+                "big": "assets/images/susi-products/Integra 2270 36 18.jpg"
+            },
+            {
+                "small": "assets/images/susi-products/Integra 2270 36 23.jpg",
+                "medium": "assets/images/susi-products/Integra 2270 36 23.jpg",
+                "big": "assets/images/susi-products/Integra 2270 36 23.jpg"
+            },
+            {
+                "small": "assets/images/susi-products/Integra 2270 36 26.jpg",
+                "medium": "assets/images/susi-products/Integra 2270 36 26.jpg",
+                "big": "assets/images/susi-products/Integra 2270 36 26.jpg"
+            },
+            {
+                "small": "assets/images/susi-products/Integra 2270 36 32.jpg",
+                "medium": "assets/images/susi-products/Integra 2270 36 32.jpg",
+                "big": "assets/images/susi-products/Integra 2270 36 32.jpg"
+            },
+            {
+                "small": "assets/images/susi-products/Integra 2270 36 33.jpg",
+                "medium": "assets/images/susi-products/Integra 2270 36 33.jpg",
+                "big": "assets/images/susi-products/Integra 2270 36 33.jpg"
+            },
+            {
+                "small": "assets/images/susi-products/Integra 2270 36 35.jpg",
+                "medium": "assets/images/susi-products/Integra 2270 36 35.jpg",
+                "big": "assets/images/susi-products/Integra 2270 36 35.jpg"
+            }
+        ],
+        "plans": [
+            {
+                "name": "First floor",
+                "desc": "Plan description. Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium magnam veniam sit reprehenderit deserunt ad voluptates id aperiam veritatis! Nobis saepe quos eveniet numquam vitae quis, tenetur consectetur impedit dolore.",
+                "area": {
+                    "value": 1180,
+                    "unit": "ft²"
+                },
+                "rooms": 3,
+                "baths": 1,
+                "image": "assets/images/others/plan-1.jpg"
+            },
+            {
+                "name": "Second floor",
+                "desc": "Plan description. Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium magnam veniam sit reprehenderit deserunt ad voluptates id aperiam veritatis! Nobis saepe quos eveniet numquam vitae quis, tenetur consectetur impedit dolore.",
+                "area": {
+                    "value": 1200,
+                    "unit": "ft²"
+                },
+                "rooms": 5,
+                "baths": 2,
+                "image": "assets/images/others/plan-2.jpg"
+            }
+        ],
+        "videos": [
+            {
+                "name": "Video with 'mat-video' plugin",
+                "link": "http://themeseason.com/data/videos/video-1.mp4"
+            },
+            {
+                "name": "Video with 'ngx-embed-video' plugin",
+                "link": "https://www.youtube.com/watch?v=-NInBEdSvp8"
+            }
+        ],
+        "published": "2013-11-19 18:20:00",
+        "lastUpdate": "2019-06-08 14:20:00",
+        "views": 256
+    },
+    {
+        "id": 7,
+        "title": "Integra 2270", 
+        "desc": "This Retrofit Panel Adapter allows the user to install a small panel meter into any switchboard panel. The installation can be done in minutes without de-energizing the circuit or re-wiring anything.",
+        "type": "Retrofit",
+        "manufacturer": "Crompton Instruments",
+        "propertyType": "Office",
+        "productType": ["SWD Series"],
+        "city": "New York",
+        "zipCode": "10019",
+        "neighborhood": ["Englewood", "Austin"],
+        "street": ["Englewood Street #2", "Austin Street #2"],
+        "spin": "https://womblewatch.sirv.com/products/ww00007/ww00007.spin",
+        "location" : {
+            "lat": 40.716761,
+            "lng": -73.999958
+        },
+        "formattedAddress": "230 W 55th St, New York, NY 10019, USA", 
+        "features": ["Air Conditioning", "Barbeque", "Dryer", "Microwave", "Gym", "Swimming Pool", "Sauna", "TV Cable", "WiFi"],
+        "featured": false, 
+        "priceDollar": {
+            "sale": 2500000,
+            "rent": null
+        },
+        "priceEuro": {
+            "sale": 2200000,
+            "rent": null
+        },
+        "bedrooms": 2,
+        "bathrooms": 2,
+        "garages": 1,
+        "area": {
+            "value": 3200,
+            "unit": "ft²"
+        },
+        "yearBuilt": 2017,
+        "ratingsCount": 7,
+        "ratingsValue": 700,
+        "additionalFeatures": [                
+            {
+                "name": "Heat",
+                "value": "Natural Gas"
+            },
+            {
+                "name": "Roof",
+                "value": "Composition/Shingle"
+            },
+            {
+                "name": "Floors",
+                "value": "Wall-to-Wall Carpet"
+            },
+            {
+                "name": "Water",
+                "value": "District/Public"
+            },
+            {
+                "name": "Cross Streets",
+                "value": "Orangethorpe-Gilbert"
+            },
+            {
+                "name": "Windows",
+                "value": "Skylights"
+            },
+            {
+                "name": "Flat",
+                "value": "5"
+            },
+            {
+                "name": "Childroom",
+                "value": "2"
+            }
+        ],
+        "gallery": [         
+            {
+                "small": "assets/images/susi-products/Integra 2270 36 4.jpg",
+                "medium": "assets/images/susi-products/Integra 2270 36 5.jpg",
+                "big": "assets/images/susi-products/Integra 2270 36 6.jpg"
+            },
+            {
+                "small": "assets/images/susi-products/Integra 2270 36 8.jpg",
+                "medium": "assets/images/susi-products/Integra 2270 36 8.jpg",
+                "big": "assets/images/susi-products/Integra 2270 36 8.jpg"
+            },
+            {
+                "small": "assets/images/susi-products/Integra 2270 36 14.jpg",
+                "medium": "assets/images/susi-products/Integra 2270 36 14.jpg",
+                "big": "assets/images/susi-products/Integra 2270 36 14.jpg"
+            },
+            {
+                "small": "assets/images/susi-products/Integra 2270 36 18.jpg",
+                "medium": "assets/images/susi-products/Integra 2270 36 18.jpg",
+                "big": "assets/images/susi-products/Integra 2270 36 18.jpg"
+            },
+            {
+                "small": "assets/images/susi-products/Integra 2270 36 23.jpg",
+                "medium": "assets/images/susi-products/Integra 2270 36 23.jpg",
+                "big": "assets/images/susi-products/Integra 2270 36 23.jpg"
+            },
+            {
+                "small": "assets/images/susi-products/Integra 2270 36 26.jpg",
+                "medium": "assets/images/susi-products/Integra 2270 36 26.jpg",
+                "big": "assets/images/susi-products/Integra 2270 36 26.jpg"
+            },
+            {
+                "small": "assets/images/susi-products/Integra 2270 36 32.jpg",
+                "medium": "assets/images/susi-products/Integra 2270 36 32.jpg",
+                "big": "assets/images/susi-products/Integra 2270 36 32.jpg"
+            },
+            {
+                "small": "assets/images/susi-products/Integra 2270 36 33.jpg",
+                "medium": "assets/images/susi-products/Integra 2270 36 33.jpg",
+                "big": "assets/images/susi-products/Integra 2270 36 33.jpg"
+            },
+            {
+                "small": "assets/images/susi-products/Integra 2270 36 35.jpg",
+                "medium": "assets/images/susi-products/Integra 2270 36 35.jpg",
+                "big": "assets/images/susi-products/Integra 2270 36 35.jpg"
+            }
+        ],
+        "plans": [
+            {
+                "name": "First floor",
+                "desc": "Plan description. Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium magnam veniam sit reprehenderit deserunt ad voluptates id aperiam veritatis! Nobis saepe quos eveniet numquam vitae quis, tenetur consectetur impedit dolore.",
+                "area": {
+                    "value": 1180,
+                    "unit": "ft²"
+                },
+                "rooms": 3,
+                "baths": 1,
+                "image": "assets/images/others/plan-1.jpg"
+            },
+            {
+                "name": "Second floor",
+                "desc": "Plan description. Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium magnam veniam sit reprehenderit deserunt ad voluptates id aperiam veritatis! Nobis saepe quos eveniet numquam vitae quis, tenetur consectetur impedit dolore.",
+                "area": {
+                    "value": 1200,
+                    "unit": "ft²"
+                },
+                "rooms": 5,
+                "baths": 2,
+                "image": "assets/images/others/plan-2.jpg"
+            }
+        ],
+        "videos": [
+            {
+                "name": "Video with 'mat-video' plugin",
+                "link": "http://themeseason.com/data/videos/video-1.mp4"
+            },
+            {
+                "name": "Video with 'ngx-embed-video' plugin",
+                "link": "https://www.youtube.com/watch?v=-NInBEdSvp8"
+            }
+        ],
+        "published": "2017-08-12 18:20:00",
+        "lastUpdate": "2019-03-29 14:20:00",
+        "views": 470
+    },
+    {
+        "id": 8,
+        "title": "Integra 2270", 
+        "desc": "This Retrofit Panel Adapter allows the user to install a small panel meter into any switchboard panel. The installation can be done in minutes without de-energizing the circuit or re-wiring anything.",
+        "type": "Retrofit",
+        "manufacturer": "Crompton Instruments",
+        "propertyType": "Apartment",
+        "productType": ["SWD Series"],
+        "city": "Los Angeles",
+        "zipCode": "90028",
+        "neighborhood": ["Englewood", "Austin"],
+        "street": ["Englewood Street #2", "Austin Street #2"],
+        "spin": "https://womblewatch.sirv.com/products/ww00008/ww00008.spin",
+        "location" : {
+            "lat": 34.100570,
+            "lng": -118.327440
+        },
+        "formattedAddress": "1627 Vine St, Los Angeles, CA 90028, USA", 
+        "features": ["Air Conditioning", "Refrigerator", "Dryer", "Microwave", "Gym", "Swimming Pool", "Sauna", "TV Cable", "WiFi"],
+        "featured": true, 
+        "priceDollar": {
+            "sale": null,
+            "rent": 5600
+        },
+        "priceEuro": {
+            "sale": null,
+            "rent": 5000
+        },
+        "bedrooms": 2,
+        "bathrooms": 2,
+        "garages": 1,
+        "area": {
+            "value": 1600,
+            "unit": "ft²"
+        },
+        "yearBuilt": 2017,
+        "ratingsCount": 4,
+        "ratingsValue": 380,
+        "additionalFeatures": [                
+            {
+                "name": "Heat",
+                "value": "Natural Gas"
+            },
+            {
+                "name": "Roof",
+                "value": "Composition/Shingle"
+            },
+            {
+                "name": "Floors",
+                "value": "Wall-to-Wall Carpet"
+            },
+            {
+                "name": "Water",
+                "value": "District/Public"
+            },
+            {
+                "name": "Cross Streets",
+                "value": "Orangethorpe-Gilbert"
+            },
+            {
+                "name": "Windows",
+                "value": "Skylights"
+            },
+            {
+                "name": "Flat",
+                "value": "5"
+            },
+            {
+                "name": "Childroom",
+                "value": "2"
+            }
+        ],
+        "gallery": [         
+            {
+                "small": "assets/images/susi-products/Integra 2270 36 4.jpg",
+                "medium": "assets/images/susi-products/Integra 2270 36 5.jpg",
+                "big": "assets/images/susi-products/Integra 2270 36 6.jpg"
+            },
+            {
+                "small": "assets/images/susi-products/Integra 2270 36 8.jpg",
+                "medium": "assets/images/susi-products/Integra 2270 36 8.jpg",
+                "big": "assets/images/susi-products/Integra 2270 36 8.jpg"
+            },
+            {
+                "small": "assets/images/susi-products/Integra 2270 36 14.jpg",
+                "medium": "assets/images/susi-products/Integra 2270 36 14.jpg",
+                "big": "assets/images/susi-products/Integra 2270 36 14.jpg"
+            },
+            {
+                "small": "assets/images/susi-products/Integra 2270 36 18.jpg",
+                "medium": "assets/images/susi-products/Integra 2270 36 18.jpg",
+                "big": "assets/images/susi-products/Integra 2270 36 18.jpg"
+            },
+            {
+                "small": "assets/images/susi-products/Integra 2270 36 23.jpg",
+                "medium": "assets/images/susi-products/Integra 2270 36 23.jpg",
+                "big": "assets/images/susi-products/Integra 2270 36 23.jpg"
+            },
+            {
+                "small": "assets/images/susi-products/Integra 2270 36 26.jpg",
+                "medium": "assets/images/susi-products/Integra 2270 36 26.jpg",
+                "big": "assets/images/susi-products/Integra 2270 36 26.jpg"
+            },
+            {
+                "small": "assets/images/susi-products/Integra 2270 36 32.jpg",
+                "medium": "assets/images/susi-products/Integra 2270 36 32.jpg",
+                "big": "assets/images/susi-products/Integra 2270 36 32.jpg"
+            },
+            {
+                "small": "assets/images/susi-products/Integra 2270 36 33.jpg",
+                "medium": "assets/images/susi-products/Integra 2270 36 33.jpg",
+                "big": "assets/images/susi-products/Integra 2270 36 33.jpg"
+            },
+            {
+                "small": "assets/images/susi-products/Integra 2270 36 35.jpg",
+                "medium": "assets/images/susi-products/Integra 2270 36 35.jpg",
+                "big": "assets/images/susi-products/Integra 2270 36 35.jpg"
+            }
+        ],
+        "plans": [
+            {
+                "name": "First floor",
+                "desc": "Plan description. Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium magnam veniam sit reprehenderit deserunt ad voluptates id aperiam veritatis! Nobis saepe quos eveniet numquam vitae quis, tenetur consectetur impedit dolore.",
+                "area": {
+                    "value": 1180,
+                    "unit": "ft²"
+                },
+                "rooms": 3,
+                "baths": 1,
+                "image": "assets/images/others/plan-1.jpg"
+            },
+            {
+                "name": "Second floor",
+                "desc": "Plan description. Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium magnam veniam sit reprehenderit deserunt ad voluptates id aperiam veritatis! Nobis saepe quos eveniet numquam vitae quis, tenetur consectetur impedit dolore.",
+                "area": {
+                    "value": 1200,
+                    "unit": "ft²"
+                },
+                "rooms": 5,
+                "baths": 2,
+                "image": "assets/images/others/plan-2.jpg"
+            }
+        ],
+        "videos": [
+            {
+                "name": "Video with 'mat-video' plugin",
+                "link": "http://themeseason.com/data/videos/video-1.mp4"
+            },
+            {
+                "name": "Video with 'ngx-embed-video' plugin",
+                "link": "https://www.youtube.com/watch?v=-NInBEdSvp8"
+            }
+        ],
+        "published": "2016-03-29 05:20:00",
+        "lastUpdate": "2019-06-26 14:20:00",
+        "views": 852
+    }    
+]

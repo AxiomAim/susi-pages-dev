@@ -1,0 +1,68 @@
+<div class="section mt-3">
+    <div class="px-3">
+        <div class="theme-container">
+            <h1 class="section-title">Media</h1> 
+
+            <div fxLayout="row wrap" class="services-wrapper">
+                <div fxFlex="100" fxFlex.gt-md="25" fxFlex.gt-sm="50" class="p-2">
+                 
+                    <mat-card fxLayout="column" fxLayoutAlign="start center" class="h-100 w-100 text-center">            
+                        <mat-icon class="mat-icon-xlg" color="primary">picture_as_pdf</mat-icon>
+                        <h2 class="capitalize fw-600 my-3">Literature</h2>
+
+                        <mat-nav-list>
+                            <mat-list-item *ngFor="let data of settings.pdfs">
+                                <a matLine [href]="data.url" target="_blank">{{ data.name }}</a>
+                            </mat-list-item>
+                        </mat-nav-list>
+
+                    </mat-card>
+                   
+                </div>
+                <div fxFlex="100" fxFlex.gt-md="25" fxFlex.gt-sm="50" class="p-2">
+                 
+                    <mat-card fxLayout="column" fxLayoutAlign="start center" class="h-100 w-100 text-center">            
+                        <mat-icon class="mat-icon-xlg" color="primary">collections</mat-icon>
+                        <h2 class="capitalize fw-600 my-3">Photos</h2>
+                        <mat-nav-list>
+                            <mat-list-item *ngFor="let data of settings.photos">
+                                <a matLine (click)="openPhotoDialog(data)">{{ data.name }}</a>
+                            </mat-list-item>
+                        </mat-nav-list>
+                    </mat-card>
+                   
+                </div>
+
+                <div fxFlex="100" fxFlex.gt-md="25" fxFlex.gt-sm="50" class="p-2">
+                 
+                    <mat-card fxLayout="column" fxLayoutAlign="start center" class="h-100 w-100 text-center">            
+                        <mat-icon class="mat-icon-xlg" color="primary">video_library</mat-icon>
+                        <h2 class="capitalize fw-600 my-3">Videos</h2>
+                        <mat-nav-list>
+                            <mat-list-item *ngFor="let data of settings.videos">
+                                <a matLine (click)="openVideoDialog(data)">{{ data.name }}</a>
+                            </mat-list-item>
+                        </mat-nav-list>
+                    </mat-card>
+                   
+                </div>
+
+                <div fxFlex="100" fxFlex.gt-md="25" fxFlex.gt-sm="50" class="p-2">
+                 
+                    <mat-card fxLayout="column" fxLayoutAlign="start center" class="h-100 w-100 text-center">            
+                        <mat-icon class="mat-icon-xlg" color="primary">collections_bookmark</mat-icon>
+                        <h2 class="capitalize fw-600 my-3">Case Studies</h2>
+                        <mat-nav-list>
+                            <mat-list-item *ngFor="let data of studies">
+                                <a matLine [href]="data.url" target="_blank">{{ data.name }}</a>
+                            </mat-list-item>
+                        </mat-nav-list>
+                    </mat-card>
+                   
+                </div>
+
+            </div>
+                
+        </div>
+    </div>   
+</div>

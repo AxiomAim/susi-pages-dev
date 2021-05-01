@@ -1,0 +1,23 @@
+<div class="p-3">
+    <div class="theme-container">
+        <a (click)="openDialog()" mat-raised-button color="primary" fxShow="false" fxShow.gt-xs
+            class="uppercase">Add a 360 View</a>
+    </div>
+</div>
+
+<!-- <mat-form-field appearance="outline" class="w-100">
+    <input matInput (keyup)="applyFilter($event.target.value)" placeholder="Filter Items" autocomplete="off">
+</mat-form-field> -->
+
+<div cdkDropList class="example-list" (cdkDropListDropped)="drop($event)">
+    <div class="example-box" *ngFor="let item of support.threeSixtyViews" cdkDrag>
+      <div class="example-custom-placeholder" *cdkDragPlaceholder></div>
+      <mat-icon>3d_rotation</mat-icon>
+      <div>{{ item.partner }}</div>
+      <div>{{ item.type }}</div>
+      <div>{{ item.part }}</div>
+      <button mat-icon-button color="warn" (click)="remove(item)" matTooltip="Remove" class="remove">
+        <mat-icon>delete</mat-icon>
+      </button>
+    </div>
+  </div>

@@ -1,0 +1,52 @@
+[  
+      { 
+        "id": 1,
+        "compnay": "Janitza",
+        "part": "SWDGS9",
+        "indexUrl": "https://stream.iconasys.com/viewer.php?application=360&type=index&id=68bba2afeee0e033dd72e3164b9bb0f48183d5ad",
+        "iFrameUrl": "https://stream.iconasys.com/viewer.php?application=360&type=iframe&id=68bba2afeee0e033dd72e3164b9bb0f48183d5ad"
+      },
+      { 
+        "id": 2,
+        "compnay": "Electro Industries",
+        "part": "SWDGS9-SK",
+        "indexUrl": "https://stream.iconasys.com/viewer.php?application=360&type=index&id=2d3037c0732b61fd5fc38238e58e7e135929b2dc",
+        "iFrameUrl": "https://stream.iconasys.com/viewer.php?application=360&type=iframe&id=2d3037c0732b61fd5fc38238e58e7e135929b2dc"
+      },
+      { 
+        "id": 3,
+        "compnay": "Electro Industries",
+        "part": "SWDGS9-SK w/ cover",
+        "indexUrl": "https://stream.iconasys.com/viewer.php?application=360&type=index&id=44e393e5eb4938260b0af61f1157e5192c310f53",
+        "iFrameUrl": "https://stream.iconasys.com/viewer.php?application=360&type=iframe&id=44e393e5eb4938260b0af61f1157e5192c310f53"
+      },
+      { 
+        "id": 4,
+        "compnay": "Electro Industries",
+        "part": "SWINJL9",
+        "indexUrl": "https://stream.iconasys.com/viewer.php?application=360&type=index&id=3b87f0c4c9e94852d96eaad642fa5c152ae553b5",
+        "iFrameUrl": "https://stream.iconasys.com/viewer.php?application=360&type=iframe&id=3b87f0c4c9e94852d96eaad642fa5c152ae553b5"
+      },
+      { 
+        "id": 5,
+        "compnay": "Electro Industries",
+        "part": "SWDJL9-27",
+        "indexUrl": "https://stream.iconasys.com/viewer.php?application=360&type=index&id=20927bf96554e28589aa41992d71eac43ea0be46",
+        "iFrameUrl": "https://stream.iconasys.com/viewer.php?application=360&type=iframe&id=20927bf96554e28589aa41992d71eac43ea0be46"
+      },
+      { 
+        "id": 6,
+        "compnay": "Electro Industries",
+        "part": "SWDJL9-27 w/ cover",
+        "indexUrl": "https://stream.iconasys.com/viewer.php?application=360&type=index&id=bc37d6fb5a1a6b1b5b38a7b248caa7e7381887c6",
+        "iFrameUrl": "https://stream.iconasys.com/viewer.php?application=360&type=iframe&id=bc37d6fb5a1a6b1b5b38a7b248caa7e7381887c6"
+      },
+      { 
+        "id": 7,
+        "compnay": "Electro Industries",
+        "part": "SWDJL9-27 in case",
+        "indexUrl": "https://stream.iconasys.com/viewer.php?application=360&type=index&id=b8a60f3641b7119e177905ae2c92bb44b3b530d0",
+        "iFrameUrl": "https://stream.iconasys.com/viewer.php?application=360&type=iframe&id=b8a60f3641b7119e177905ae2c92bb44b3b530d0"
+      }
+    ]
+  

@@ -1,0 +1,5 @@
+$electroind-primary: mat-palette($mat-grey, 700, 50, 900);
+$electroind-accent: mat-palette($mat-red, 600, 100, 900);
+$electroind-warn: mat-palette($mat-red, 500, A200, 800);
+
+$electroind-theme: mat-dark-theme($electroind-primary, $electroind-accent, $electroind-warn);

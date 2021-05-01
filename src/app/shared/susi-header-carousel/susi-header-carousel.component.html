@@ -1,0 +1,78 @@
+<div class="header-carousel" [class.offset-bottom]="contentOffsetToTop">
+
+    <div class="brand-container" *ngIf="settings.partnerBar">
+        <!-- <a mat-button routerLink="/partners">
+            <mat-icon class="mat-icon-sm">search</mat-icon>
+            <span fxShow="false" fxShow.gt-sm class="mx-1 uppercase">view partner</span> 
+        </a> -->
+        <app-susi-partner-carousel></app-susi-partner-carousel>
+    </div>
+    <div *ngIf="slides.length > 1" class="swiper-container h-100" [swiper]="config"
+        (indexChange)="onIndexChange($event)">
+        <div class="swiper-wrapper h-100">
+            <div *ngFor="let slide of slides;" class="swiper-slide">
+                <div [attr.data-background]="slide.image" class="slide-item swiper-lazy">
+                    <div class="swiper-lazy-preloader"></div>
+                </div>
+            </div>
+        </div>
+
+        <div fxLayout="column" fxLayoutAlign="center center" class="slide-info section" [dir]="(settings.rtl) ? 'rtl' : 'ltr'">
+            <h1 fxHide.xs fxHide.sm color="primary" class="fw-900 primary-color header-title top-center">Industry Leader in Electric Meter
+                Installation Solutions</h1>
+            <h1 fxHide.xs fxHide.sm color="accent" class="fw-900 primary-color header-title bottom-center">Cost Effective Solutions for Upgrading
+                 or New Meter Installations</h1>
+            <div fxLayout="row wrap" class="services-wrapper">
+                <div fxFlex="100" fxFlex.gt-xl="50" fxFlex.gt-lg="50" fxFlex.gt-md="50" fxFlex.gt-sm="100" fxHide
+                    fxShow.xs class="p-2">
+                    <mat-card class="p-4" style="height: 150px; width: 250px">
+                        <iframe height="150" width="250"
+                            src="https://www.youtube.com/embed/aTIQDErrJ8o?autoplay=1&amp;loop=1&amp;mute=1&amp;showinfo=0&amp;rel=0&amp;playlist=aTIQDErrJ8o"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; loop; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </mat-card>
+                </div>
+                <div fxFlex="100" fxFlex.gt-xl="50" fxFlex.gt-lg="50" fxFlex.gt-md="50" fxFlex.gt-sm="100"
+                    fxShow="false" fxShow.gt-md class="p-2">
+                    <mat-card class="p-4" style="height: 300px; width: 500px">
+                        <div fxLayout="row wrap">
+                            <div fxFlex="100" fxFlex.gt-xs="50" class="" *ngFor="let benefit of benefits">
+                                <div class="cardInner">
+                                    <div [style.grid-area]="'side'">
+                                        <mat-icon *ngIf="benefit.icon != 'susi'" color="primary" class="mat-icon-sm">{{benefit.icon}}</mat-icon>
+                                        <mat-icon *ngIf="benefit.icon === 'susi'" color="primary" [svgIcon]="benefit.icon"></mat-icon>
+                                    </div>
+                                    <div [style.grid-area]="'content'">
+                                        <h2 class="capitalize fw-600">{{benefit.title}}</h2>
+                                        <p>{{benefit.description}}</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </mat-card>
+                </div>
+                <div fxFlex="100" fxFlex.gt-xl="50" fxFlex.gt-lg="50" fxFlex.gt-md="50" fxFlex.gt-sm="100"
+                    fxShow="false" fxShow.gt-xs class="p-2">
+                    <mat-card class="p-4" style="height: 300px; width: 500px">
+                        <iframe width="500" height="300"
+                            src="https://www.youtube.com/embed/aTIQDErrJ8o?autoplay=1&amp;loop=1&amp;mute=1&amp;showinfo=0&amp;rel=0&amp;playlist=aTIQDErrJ8o"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; loop; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </mat-card>
+                </div>
+                <!-- <div fxFlex="100" fxFlex.gt-xl="50" fxFlex.gt-lg="50" fxFlex.gt-md="50" fxFlex.gt-sm="100" fxHide
+                    fxShow.xs class="p-2">
+                    <mat-card class="p-4" style="height: 150px; width: 250px">
+                        <iframe height="150" width="250"
+                            src="https://www.youtube.com/embed/aTIQDErrJ8o?autoplay=1&amp;loop=1&amp;mute=1&amp;showinfo=0&amp;rel=0&amp;playlist=aTIQDErrJ8o"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; loop; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </mat-card>
+                </div> -->
+            </div>
+        </div>
+    </div>
+</div>

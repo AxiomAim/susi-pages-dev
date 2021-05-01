@@ -1,0 +1,5 @@
+$ge-primary: mat-palette($mat-blue, 700, 50, 900);
+$ge-accent: mat-palette($mat-cyan, 600, 100, 900);
+$ge-warn: mat-palette($mat-red, 500, A200, 800);
+
+$ge-theme: mat-light-theme($ge-primary, $ge-accent, $ge-warn);

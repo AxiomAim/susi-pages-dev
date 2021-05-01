@@ -1,0 +1,44 @@
+[
+    { 
+        "id": 1, 
+        "title": "Meters", 
+        "message": "",         
+        "priceDollar": {
+            "sale": 1300000,
+            "rent": null
+        },
+        "priceEuro": {
+            "sale": 1160000,
+            "rent": null
+        },
+        "image": "assets/images/header/header-carousel/susi-meter_panel.jpg"
+    },
+    { 
+        "id": 2, 
+        "title": "Industrial", 
+        "message": "",         
+        "priceDollar": {
+            "sale": 2550000,
+            "rent": null
+        },
+        "priceEuro": {
+            "sale": 2280000,
+            "rent": null
+        },  
+        "image": "assets/images/header/header-carousel/susi-industrial.jpg" 
+    },
+    { 
+        "id": 3, 
+        "title": "Utility", 
+        "message": "",         
+        "priceDollar": {
+            "sale": 2500000,
+            "rent": null
+        },
+        "priceEuro": {
+            "sale": 2200000,
+            "rent": null
+        },
+        "image": "assets/images/header/header-carousel/susi-utility.jpg" 
+    }
+]

@@ -1,0 +1,17 @@
+<div class="section mt-3">
+    <div class="px-3">
+        <div class="theme-container">
+            <h1 class="section-title">Our Partners</h1>
+            <!-- <h3 class="sub-title">Click to visit Partner Page</h3> -->
+            <div fxLayout="row wrap" fxLayout.xs="column" fxLayoutAlign="space-evenly center">
+                <div fxFlex="25%" fxFlex.xs="100%" class="p-2" *ngFor="let partner of partners">
+                    <a [href]="partner.url" target="_blank">
+                        <mat-card appMaterialElevation>
+                            <img [src]="partner.image">
+                        </mat-card>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

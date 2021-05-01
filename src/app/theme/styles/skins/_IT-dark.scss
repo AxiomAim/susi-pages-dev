@@ -1,0 +1,5 @@
+$itron-primary: mat-palette($mat-red, 700, 50, 900);
+$itron-accent: mat-palette($mat-orange, 600, 100, 900);
+$itron-warn: mat-palette($mat-red, 500, A200, 800);
+
+$itron-theme: mat-dark-theme($itron-primary, $itron-accent, $itron-warn);

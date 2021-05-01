@@ -1,0 +1,53 @@
+<div class="section">
+    <div class="px-3">
+        <div class="theme-container">
+            <h1 class="section-title">Applications</h1>
+
+            <div class="applications-carousel">
+                <div class="swiper-container h-100 carousel-outer" [swiper]="config">
+                    <div class="swiper-wrapper h-100">
+                        <div *ngFor="let app of applications" class="swiper-slide">
+                            <a [routerLink]="app.link">
+                                <mat-card appMaterialElevation>
+                                    <img mat-card-image [attr.data-src]="app.image" alt="" class="swiper-lazy d-block">
+                                    <h1 class="fw-600 top-left">{{app.name}}</h1>
+                                    <div class="swiper-lazy-preloader"></div>
+                                </mat-card>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                    <!-- <button mat-mini-fab color="primary" class="swiper-button-prev swipe-arrow">
+                        <mat-icon>keyboard_arrow_left</mat-icon>
+                    </button>
+                    <button mat-mini-fab color="primary" class="swiper-button-next swipe-arrow">
+                        <mat-icon>keyboard_arrow_right</mat-icon>
+                    </button> -->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- <div class="swiper-container picture-item" [swiper]="config" [(index)]="index">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide" *ngFor="let app of applications">
+            <a [routerLink]="app.link">
+                <mat-card appMaterialElevation>
+                    <img mat-card-image [attr.data-src]="app.image" alt="" class="swiper-lazy d-block">
+                    <h1 class="fw-600 top-left">{{app.name}}</h1>
+                    <div class="swiper-lazy-preloader"></div>
+                </mat-card>
+            </a>
+        </div>
+    </div>
+
+    <button mat-mini-fab color="primary" class="swiper-button-prev swipe-arrow">
+        <mat-icon>keyboard_arrow_left</mat-icon>
+    </button>
+    <button mat-mini-fab color="primary" class="swiper-button-next swipe-arrow">
+        <mat-icon>keyboard_arrow_right</mat-icon>
+    </button>
+</div> -->

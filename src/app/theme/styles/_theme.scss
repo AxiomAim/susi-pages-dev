@@ -1,0 +1,161 @@
+@import "~@angular/material/theming";
+
+$custom-typography: mat-typography-config(
+  $font-family: 'Montserrat'
+);
+
+@include mat-core($custom-typography);
+
+@import 'theme-reset';
+.app{
+    &.SU-light{
+        @import "skins/SU-light";
+        @include angular-material-theme($susi-theme);
+        @include theme-reset($susi-theme);
+    }
+    &.SU-dark{
+        @import "skins/SU-dark";
+        @include angular-material-theme($susi-theme);
+        @include theme-reset($susi-theme);
+    }
+    &.AC-light{
+        @import "skins/AC-light";
+        @include angular-material-theme($aclara-theme);
+        @include theme-reset($aclara-theme);
+    }
+    &.AC-dark{
+        @import "skins/AC-dark";
+        @include angular-material-theme($aclara-theme);
+        @include theme-reset($aclara-theme);
+    }
+    &.AE-light{
+        @import "skins/AE-light";
+        @include angular-material-theme($accu-energy-theme);
+        @include theme-reset($accu-energy-theme);
+    }
+    &.AE-dark{
+        @import "skins/AE-dark";
+        @include angular-material-theme($accu-energy-theme);
+        @include theme-reset($accu-energy-theme);
+    }
+    &.AM-light{
+        @import "skins/AM-light";
+        @include angular-material-theme($ametek-theme);
+        @include theme-reset($ametek-theme);
+    }
+    &.AM-dark{
+        @import "skins/AM-dark";
+        @include angular-material-theme($ametek-theme);
+        @include theme-reset($ametek-theme);
+    }
+    &.BI-light{
+        @import "skins/BI-light";
+        @include angular-material-theme($bitronics-theme);
+        @include theme-reset($bitronics-theme);
+    }
+    &.BI-dark{
+        @import "skins/BI-dark";
+        @include angular-material-theme($bitronics-theme);
+        @include theme-reset($bitronics-theme);
+    }
+    &.CR-light{
+        @import "skins/CR-light";
+        @include angular-material-theme($crompton-theme);
+        @include theme-reset($crompton-theme);
+    }
+    &.CR-dark{
+        @import "skins/CR-dark";
+        @include angular-material-theme($crompton-theme);
+        @include theme-reset($crompton-theme);
+    }
+    &.EA-light{
+        @import "skins/EA-light";
+        @include angular-material-theme($eaton-theme);
+        @include theme-reset($eaton-theme);
+    }
+    &.EA-dark{
+        @import "skins/EA-dark";
+        @include angular-material-theme($eaton-theme);
+        @include theme-reset($eaton-theme);
+    }
+    &.EI-light{
+        @import "skins/EI-light";
+        @include angular-material-theme($electroind-theme);
+        @include theme-reset($electroind-theme);
+    }
+    &.EI-dark{
+        @import "skins/EI-dark";
+        @include angular-material-theme($electroind-theme);
+        @include theme-reset($electroind-theme);
+    }
+    &.EL-light{
+        @import "skins/EL-light";
+        @include angular-material-theme($elster-theme);
+        @include theme-reset($elster-theme);
+    }
+    &.EL-dark{
+        @import "skins/EL-dark";
+        @include angular-material-theme($elster-theme);
+        @include theme-reset($elster-theme);
+    }
+    &.GE-light{
+        @import "skins/GE-light";
+        @include angular-material-theme($ge-theme);
+        @include theme-reset($ge-theme);
+    }
+    &.GE-dark{
+        @import "skins/GE-dark";
+        @include angular-material-theme($ge-theme);
+        @include theme-reset($ge-theme);
+    }
+    &.IT-light{
+        @import "skins/IT-light";
+        @include angular-material-theme($itron-theme);
+        @include theme-reset($itron-theme);
+    }
+    &.IT-dark{
+        @import "skins/IT-dark";
+        @include angular-material-theme($itron-theme);
+        @include theme-reset($itron-theme);
+    }
+    &.LG-light{
+        @import "skins/LG-light";
+        @include angular-material-theme($landisgyr-theme);
+        @include theme-reset($landisgyr-theme);
+    }
+    &.LG-dark{
+        @import "skins/LG-dark";
+        @include angular-material-theme($landisgyr-theme);
+        @include theme-reset($landisgyr-theme);
+    }
+    &.SA-light{
+        @import "skins/SA-light";
+        @include angular-material-theme($satec-theme);
+        @include theme-reset($satec-theme);
+    }
+    &.SA-dark{
+        @import "skins/SA-dark";
+        @include angular-material-theme($satec-theme);
+        @include theme-reset($satec-theme);
+    }
+    &.SC-light{
+        @import "skins/SC-light";
+        @include angular-material-theme($schneider-theme);
+        @include theme-reset($schneider-theme);
+    }
+    &.SC-dark{
+        @import "skins/SC-dark";
+        @include angular-material-theme($schneider-theme);
+        @include theme-reset($schneider-theme);
+    }
+    &.SI-light{
+        @import "skins/SI-light";
+        @include angular-material-theme($siemens-theme);
+        @include theme-reset($siemens-theme);
+    }
+    &.SI-dark{
+        @import "skins/SI-dark";
+        @include angular-material-theme($siemens-theme);
+        @include theme-reset($siemens-theme);
+    }
+}

@@ -1,0 +1,21 @@
+<div class="p-3">
+    <div class="theme-container">
+        <a (click)="openDialog()" mat-raised-button color="primary" fxShow="false" fxShow.gt-xs class="uppercase">Add a
+            Picture Album</a>
+    </div>
+</div>
+
+<div cdkDropList class="example-list" (cdkDropListDropped)="drop($event)">
+    <div class="example-box" *ngFor="let item of support.pictures; let i = index" cdkDrag>
+        <div class="example-custom-placeholder" *cdkDragPlaceholder></div>
+        <!-- <img *ngIf="item.images" [src]="item.images[0].extUrl" [style.width.px]="25" class="d-block"> -->
+        <div>{{ item.name }}</div>
+        <div>{{ item.description }}</div>
+        <button mat-icon-button color="primary" (click)="editImages(i)" matTooltip="Remove" class="remove">
+            <mat-icon>create</mat-icon>
+        </button>
+        <button mat-icon-button color="warn" (click)="remove(item)" matTooltip="Remove" class="remove">
+            <mat-icon>delete</mat-icon>
+        </button>
+    </div>
+</div>

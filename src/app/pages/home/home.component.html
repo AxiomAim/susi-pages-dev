@@ -1,0 +1,33 @@
+<app-susi-header-image *ngIf="settings.header == 'image'"
+    [backgroundImage]="'assets/images/header/header-image/homepage.jpg'" [bgImageAnimate]="true"
+    [contentOffsetToTop]="true" [title]="settings.name" [desc]="settings.tagline" [isHomePage]="true">
+</app-susi-header-image>
+
+<app-susi-header-carousel *ngIf="settings.header == 'carousel'" [slides]="slides" [contentOffsetToTop]="true">
+</app-susi-header-carousel>
+
+<div class="px-3">  
+    <div class="theme-container">
+        <mat-card class="main-content-header">
+            <app-susi-applications></app-susi-applications>
+        </mat-card>
+    </div>
+
+    <div class="theme-container">
+        <div fxLayout="row wrap" class="properties-wrapper">
+            <div *ngFor="let series of seriesList" [fxFlex]="(viewType=='grid') ? viewCol : 100" class="item">
+                <app-susi-series-item [series]="series" [viewType]="viewType" [viewColChanged]="viewCol"></app-susi-series-item>
+            </div>
+            <div *ngIf="seriesList?.length == 0" fxFlex="100" fxLayoutAlign="center center" [style.min-height.px]="200">
+                <mat-spinner *ngIf="!message"></mat-spinner>
+                <mat-chip-list *ngIf="message">
+                    <mat-chip selected disableRipple="true" color="warn" class="uppercase ws-nowrap">
+                        {{message}}
+                    </mat-chip>
+                </mat-chip-list>
+            </div>
+        </div>
+    </div>
+</div>
+
+<app-susi-get-in-touch></app-susi-get-in-touch>

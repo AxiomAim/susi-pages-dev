@@ -1,0 +1,27 @@
+.services-wrapper{
+    margin: -8px;
+}
+
+.media-item {
+    height: 100%;
+    overflow: hidden;
+    .features p {
+        span{
+            &:first-child {
+                float: left;
+                padding: 0 .4em 0 0;	
+            }
+            + span {
+                float: right;
+                padding: 0 0 0 .4em;
+                font-weight: 500;	
+            }
+        }
+        &:after {
+            content: "";
+            display: block;
+            overflow: hidden;
+            height: 1em; 
+        }
+    }
+}

@@ -1,0 +1,28 @@
+<div class="section mt-3">
+    <div class="px-3">
+        <div class="theme-container">
+            <h1 class="section-title">Distributors</h1>
+            <h3 class="sub-title">Click to visit Distributor Site</h3>
+            <div fxLayout="row wrap" fxLayout.xs="column" fxLayoutAlign="space-evenly top">
+                <div fxFlex="50%" fxFlex.xs="100%" class="p-2">
+                    <app-map></app-map>
+                </div>
+                <div fxFlex="50%" fxFlex.xs="100%" class="p-2">
+                    <div fxLayout="row wrap" fxLayout.xs="column" fxLayoutAlign="space-evenly center">
+                        <div fxFlex="33%" fxFlex.xs="100%" class="p-2" *ngFor="let dist of distributors">
+                            <a *ngIf="dist.url" [href]="dist.url" target="_blank">
+                                <mat-card appMaterialElevation>
+                                    <!-- <img mat-card-image [attr.data-src]="dist.image" alt=""> -->
+                                    <img [src]="dist.image">
+                                </mat-card>
+                            </a>
+                            <mat-card *ngIf="!dist.url" (click)="openDialog(dist)" appMaterialElevation>
+                                <img [src]="dist.image">
+                            </mat-card>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

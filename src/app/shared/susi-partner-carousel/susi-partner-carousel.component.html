@@ -1,0 +1,17 @@
+<a [routerLink]="['partners']" targer="_blank">
+    <div class="small primary-color p-1">Click to Explore Joint Solutions with Our Partners</div>
+    <div class="partners-carousel">
+        <div class="swiper-container h-100" [swiper]="config">
+            <div class="swiper-wrapper h-100">
+                <div *ngFor="let partner of partners" class="swiper-slide">
+                    <a [href]="partner.url" targer="_blank">
+                        <div class="partners-item">
+                            <img [attr.data-src]="partner.image" class="swiper-lazy">
+                            <div class="swiper-lazy-preloader"></div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</a>

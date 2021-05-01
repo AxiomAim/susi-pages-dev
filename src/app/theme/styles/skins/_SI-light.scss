@@ -1,0 +1,5 @@
+$siemens-primary: mat-palette($mat-cyan, 700, 50, 900);
+$siemens-accent: mat-palette($mat-amber, 600, 100, 900);
+$siemens-warn: mat-palette($mat-red, 500, A200, 800);
+
+$siemens-theme: mat-light-theme($siemens-primary, $siemens-accent, $siemens-warn);
